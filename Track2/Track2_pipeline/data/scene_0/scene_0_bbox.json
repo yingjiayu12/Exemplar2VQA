@@ -1,0 +1,1362 @@
+{
+    "scene_0": {
+        "dataset": "ai2thor_holodeck",
+        "room_size": 38.94949953132639,
+        "room_center": [
+            2.972266411408782,
+            0.0,
+            3.0232165306806564
+        ],
+        "room_bounds": [
+            -0.15046706274151803,
+            6.094999885559082,
+            -0.09500504136085511,
+            6.141438102722168
+        ],
+        "object_counts": {
+            "meeting chair": 10,
+            "door": 1,
+            "conference table": 1,
+            "potted plant": 4,
+            "storage cabinet": 1,
+            "side table": 2,
+            "magazine": 2,
+            "book": 1,
+            "conference phone": 1,
+            "wall art": 3,
+            "office supplies": 1,
+            "presentation board": 2,
+            "bookshelf": 1,
+            "floor lamp": 2,
+            "window": 2
+        },
+        "object_bboxes": {
+            "meeting_chair-0": {
+                "name": "meeting_chair-0",
+                "category": "meeting chair",
+                "object_name": "meeting_chair-5 (medium-sized meeting room)",
+                "assetId": "RoboTHOR_office_chair_allak",
+                "id": "meeting_chair-5 (medium-sized meeting room)",
+                "centroid": [
+                    3.5999999046325684,
+                    0.4956712871789932,
+                    3.599950075149536
+                ],
+                "axesLengths": [
+                    0.607396125793457,
+                    0.9913313090801239,
+                    0.6241068840026855
+                ],
+                "normalizedAxes": [
+                    1.0,
+                    -0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "min": [
+                    3.29630184173584,
+                    5.513429641723633e-06,
+                    3.2878966331481934
+                ],
+                "max": [
+                    3.903697967529297,
+                    0.9913367331027985,
+                    3.912003993988037
+                ],
+                "instance_id": 793
+            },
+            "meeting_chair-1": {
+                "name": "meeting_chair-1",
+                "category": "meeting chair",
+                "object_name": "meeting_chair-0 (medium-sized meeting room)",
+                "assetId": "RoboTHOR_office_chair_allak",
+                "id": "meeting_chair-0 (medium-sized meeting room)",
+                "centroid": [
+                    4.5,
+                    0.49566565454006195,
+                    3.299999952316284
+                ],
+                "axesLengths": [
+                    0.607396125793457,
+                    0.9913313686847687,
+                    0.6241068840026855
+                ],
+                "normalizedAxes": [
+                    -1.0,
+                    -0.0,
+                    -1.2246467991473532e-16,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.2246467991473532e-16,
+                    0.0,
+                    -1.0
+                ],
+                "min": [
+                    4.196301460266113,
+                    5.960464477539063e-08,
+                    2.987946033477783
+                ],
+                "max": [
+                    4.803698539733887,
+                    0.9913311004638672,
+                    3.612053394317627
+                ],
+                "instance_id": 2466
+            },
+            "meeting_chair-2": {
+                "name": "meeting_chair-2",
+                "category": "meeting chair",
+                "object_name": "meeting_chair-1 (medium-sized meeting room)",
+                "assetId": "RoboTHOR_office_chair_allak",
+                "id": "meeting_chair-1 (medium-sized meeting room)",
+                "centroid": [
+                    5.400000095367432,
+                    0.4956712871789932,
+                    3.3000497221946716
+                ],
+                "axesLengths": [
+                    0.607396125793457,
+                    0.9913313090801239,
+                    0.6241071224212646
+                ],
+                "normalizedAxes": [
+                    -1.0,
+                    -0.0,
+                    -1.2246467991473532e-16,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.2246467991473532e-16,
+                    0.0,
+                    -1.0
+                ],
+                "min": [
+                    5.096302032470703,
+                    5.7220458984375e-06,
+                    2.9879961013793945
+                ],
+                "max": [
+                    5.70369815826416,
+                    0.9913368225097656,
+                    3.6121034622192383
+                ],
+                "instance_id": 707
+            },
+            "meeting_chair-3": {
+                "name": "meeting_chair-3",
+                "category": "meeting chair",
+                "object_name": "meeting_chair-2 (medium-sized meeting room)",
+                "assetId": "RoboTHOR_office_chair_allak",
+                "id": "meeting_chair-2 (medium-sized meeting room)",
+                "centroid": [
+                    3.599950134754181,
+                    0.4956712871789932,
+                    2.70000022649765
+                ],
+                "axesLengths": [
+                    0.6073963642120361,
+                    0.9913313090801239,
+                    0.6241071224212646
+                ],
+                "normalizedAxes": [
+                    2.220446049250313e-16,
+                    -0.0,
+                    -1.0,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.0,
+                    0.0,
+                    2.220446049250313e-16
+                ],
+                "min": [
+                    3.2878966331481934,
+                    5.7220458984375e-06,
+                    2.3963022232055664
+                ],
+                "max": [
+                    3.912003993988037,
+                    0.991337239742279,
+                    3.0036983489990234
+                ],
+                "instance_id": 823
+            },
+            "meeting_chair-4": {
+                "name": "meeting_chair-4",
+                "category": "meeting chair",
+                "object_name": "meeting_chair-3 (medium-sized meeting room)",
+                "assetId": "RoboTHOR_office_chair_allak",
+                "id": "meeting_chair-3 (medium-sized meeting room)",
+                "centroid": [
+                    3.599950134754181,
+                    0.4956712871789932,
+                    1.5000001192092896
+                ],
+                "axesLengths": [
+                    0.6073963642120359,
+                    0.9913313090801239,
+                    0.6241071224212646
+                ],
+                "normalizedAxes": [
+                    2.220446049250313e-16,
+                    -0.0,
+                    -1.0,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.0,
+                    0.0,
+                    2.220446049250313e-16
+                ],
+                "min": [
+                    3.2878966331481934,
+                    5.7220458984375e-06,
+                    1.1963019371032715
+                ],
+                "max": [
+                    3.912003993988037,
+                    0.991337239742279,
+                    1.8036985397338867
+                ],
+                "instance_id": 9459
+            },
+            "meeting_chair-5": {
+                "name": "meeting_chair-5",
+                "category": "meeting chair",
+                "object_name": "meeting_chair-4 (medium-sized meeting room)",
+                "assetId": "RoboTHOR_office_chair_allak",
+                "id": "meeting_chair-4 (medium-sized meeting room)",
+                "centroid": [
+                    3.599950134754181,
+                    0.4956712871789932,
+                    0.6000001430511475
+                ],
+                "axesLengths": [
+                    0.6073962450027465,
+                    0.9913313090801239,
+                    0.6241071224212646
+                ],
+                "normalizedAxes": [
+                    2.220446049250313e-16,
+                    -0.0,
+                    -1.0,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.0,
+                    0.0,
+                    2.220446049250313e-16
+                ],
+                "min": [
+                    3.2878966331481934,
+                    5.7220458984375e-06,
+                    0.2963019609451294
+                ],
+                "max": [
+                    3.912003993988037,
+                    0.991337239742279,
+                    0.9036983251571655
+                ],
+                "instance_id": 2132
+            },
+            "meeting_chair-6": {
+                "name": "meeting_chair-6",
+                "category": "meeting chair",
+                "object_name": "meeting_chair-9 (medium-sized meeting room)",
+                "assetId": "RoboTHOR_office_chair_allak",
+                "id": "meeting_chair-9 (medium-sized meeting room)",
+                "centroid": [
+                    0.31700369715690613,
+                    0.4956712871789932,
+                    0.6000001430511475
+                ],
+                "axesLengths": [
+                    0.6073962450027464,
+                    0.9913313090801239,
+                    0.6241071522235869
+                ],
+                "normalizedAxes": [
+                    2.220446049250313e-16,
+                    -0.0,
+                    -1.0,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.0,
+                    0.0,
+                    2.220446049250313e-16
+                ],
+                "min": [
+                    0.004950135946273804,
+                    5.7220458984375e-06,
+                    0.2963019609451294
+                ],
+                "max": [
+                    0.6290572583675385,
+                    0.991337239742279,
+                    0.9036983251571655
+                ],
+                "instance_id": 703
+            },
+            "meeting_chair-7": {
+                "name": "meeting_chair-7",
+                "category": "meeting chair",
+                "object_name": "meeting_chair-6 (medium-sized meeting room)",
+                "assetId": "RoboTHOR_office_chair_allak",
+                "id": "meeting_chair-6 (medium-sized meeting room)",
+                "centroid": [
+                    5.099999904632568,
+                    0.49566565454006195,
+                    5.6829469203948975
+                ],
+                "axesLengths": [
+                    0.607396125793457,
+                    0.9913313686847687,
+                    0.6241068840026855
+                ],
+                "normalizedAxes": [
+                    -1.0,
+                    -0.0,
+                    -1.2246467991473532e-16,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.2246467991473532e-16,
+                    0.0,
+                    -1.0
+                ],
+                "min": [
+                    4.79630184173584,
+                    5.960464477539063e-08,
+                    5.370893478393555
+                ],
+                "max": [
+                    5.403697967529297,
+                    0.9913311004638672,
+                    5.995000839233398
+                ],
+                "instance_id": 142
+            },
+            "meeting_chair-8": {
+                "name": "meeting_chair-8",
+                "category": "meeting chair",
+                "object_name": "meeting_chair-7 (medium-sized meeting room)",
+                "assetId": "RoboTHOR_office_chair_allak",
+                "id": "meeting_chair-7 (medium-sized meeting room)",
+                "centroid": [
+                    0.31700369715690613,
+                    0.4956712871789932,
+                    2.70000022649765
+                ],
+                "axesLengths": [
+                    0.6073963642120361,
+                    0.9913313090801239,
+                    0.6241071522235869
+                ],
+                "normalizedAxes": [
+                    2.220446049250313e-16,
+                    -0.0,
+                    -1.0,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.0,
+                    0.0,
+                    2.220446049250313e-16
+                ],
+                "min": [
+                    0.004950165748596191,
+                    5.7220458984375e-06,
+                    2.3963022232055664
+                ],
+                "max": [
+                    0.6290572285652161,
+                    0.991337239742279,
+                    3.0036983489990234
+                ],
+                "instance_id": 1378
+            },
+            "meeting_chair-9": {
+                "name": "meeting_chair-9",
+                "category": "meeting chair",
+                "object_name": "meeting_chair-8 (medium-sized meeting room)",
+                "assetId": "RoboTHOR_office_chair_allak",
+                "id": "meeting_chair-8 (medium-sized meeting room)",
+                "centroid": [
+                    0.31700369715690613,
+                    0.4956712871789932,
+                    1.8000001013278961
+                ],
+                "axesLengths": [
+                    0.6073963642120359,
+                    0.9913313090801239,
+                    0.6241071522235869
+                ],
+                "normalizedAxes": [
+                    2.220446049250313e-16,
+                    -0.0,
+                    -1.0,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.0,
+                    0.0,
+                    2.220446049250313e-16
+                ],
+                "min": [
+                    0.004950165748596191,
+                    5.7220458984375e-06,
+                    1.4963021278381348
+                ],
+                "max": [
+                    0.6290572285652161,
+                    0.991337239742279,
+                    2.103698253631592
+                ],
+                "instance_id": 5013
+            },
+            "door-0": {
+                "name": "door-0",
+                "category": "door",
+                "object_name": "door|0|exterior|medium-sized meeting room",
+                "assetId": "Doorway_Double_3",
+                "id": "door|0|exterior|medium-sized meeting room",
+                "centroid": [
+                    -1.0803341865539551e-07,
+                    1.045073390007019,
+                    4.696557998657227
+                ],
+                "axesLengths": [
+                    1.94281005859375,
+                    2.0901472568511963,
+                    0.10093390941619916
+                ],
+                "normalizedAxes": [
+                    -2.220446049250313e-16,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.0,
+                    0.0,
+                    -1.0,
+                    -0.0,
+                    -2.220446049250313e-16
+                ],
+                "min": [
+                    -0.05046706274151802,
+                    -2.384185791015625e-07,
+                    3.7251529693603516
+                ],
+                "max": [
+                    0.05046684667468071,
+                    2.090147018432617,
+                    5.667963027954102
+                ],
+                "instance_id": 9214
+            },
+            "conference_table-0": {
+                "name": "conference_table-0",
+                "category": "conference table",
+                "object_name": "conference_table-0 (medium-sized meeting room)",
+                "assetId": "4d33781e36c347f9beec35ff61191be0",
+                "id": "conference_table-0 (medium-sized meeting room)",
+                "centroid": [
+                    4.8000054359436035,
+                    0.4287853538990021,
+                    1.4239327907562256
+                ],
+                "axesLengths": [
+                    1.1232938766479492,
+                    0.8575534224510193,
+                    2.837857723236084
+                ],
+                "normalizedAxes": [
+                    1.0,
+                    -0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "min": [
+                    4.238358497619629,
+                    8.285045623779297e-06,
+                    0.005003213882446289
+                ],
+                "max": [
+                    5.3616533279418945,
+                    0.857562243938446,
+                    2.842862367630005
+                ],
+                "instance_id": 1019
+            },
+            "potted_plant-0": {
+                "name": "potted_plant-0",
+                "category": "potted plant",
+                "object_name": "potted_plant-0 (medium-sized meeting room)",
+                "assetId": "4e4e9400cb95484e874daf37fa1a3f18",
+                "id": "potted_plant-0 (medium-sized meeting room)",
+                "centroid": [
+                    3.5999990701675415,
+                    0.3401407450437546,
+                    5.846311807632446
+                ],
+                "axesLengths": [
+                    0.3679382801055908,
+                    0.6803033649921417,
+                    0.2974123954772958
+                ],
+                "normalizedAxes": [
+                    -1.0,
+                    -0.0,
+                    -1.2246467991473532e-16,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.2246467991473532e-16,
+                    0.0,
+                    -1.0
+                ],
+                "min": [
+                    3.416029930114746,
+                    -1.1026859283447266e-05,
+                    5.697605133056641
+                ],
+                "max": [
+                    3.783968448638916,
+                    0.6802926063537598,
+                    5.995018005371094
+                ],
+                "instance_id": 215
+            },
+            "potted_plant-1": {
+                "name": "potted_plant-1",
+                "category": "potted plant",
+                "object_name": "potted_plant-1 (medium-sized meeting room)",
+                "assetId": "fead830f603d48d180e09b155dc0832e",
+                "id": "potted_plant-1 (medium-sized meeting room)",
+                "centroid": [
+                    5.79732358455658,
+                    0.3850030153989792,
+                    0.299999937415123
+                ],
+                "axesLengths": [
+                    0.3965759724378587,
+                    0.7699946463108063,
+                    0.3953413963317871
+                ],
+                "normalizedAxes": [
+                    -2.220446049250313e-16,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.0,
+                    0.0,
+                    -1.0,
+                    -0.0,
+                    -2.220446049250313e-16
+                ],
+                "min": [
+                    5.599652290344238,
+                    5.692243576049805e-06,
+                    0.10171198844909668
+                ],
+                "max": [
+                    5.994994163513184,
+                    0.7700009047985077,
+                    0.4982878565788269
+                ],
+                "instance_id": 6250
+            },
+            "potted_plant-2": {
+                "name": "potted_plant-2",
+                "category": "potted plant",
+                "object_name": "potted_plant-2 (medium-sized meeting room)",
+                "assetId": "67d7b82a0b7c4e0fbd76c1efd2022e32",
+                "id": "potted_plant-2 (medium-sized meeting room)",
+                "centroid": [
+                    5.841308116912842,
+                    0.35118016600608826,
+                    4.50000262260437
+                ],
+                "axesLengths": [
+                    0.33074426651000977,
+                    0.7023522257804871,
+                    0.30738353729248047
+                ],
+                "normalizedAxes": [
+                    -2.220446049250313e-16,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.0,
+                    0.0,
+                    -1.0,
+                    -0.0,
+                    -2.220446049250313e-16
+                ],
+                "min": [
+                    5.687616348266602,
+                    3.904104232788086e-06,
+                    4.334630966186523
+                ],
+                "max": [
+                    5.994999885559082,
+                    0.7023567855358124,
+                    4.665374755859375
+                ],
+                "instance_id": 1066
+            },
+            "potted_plant-3": {
+                "name": "potted_plant-3",
+                "category": "potted plant",
+                "object_name": "potted_plant-3 (medium-sized meeting room)",
+                "assetId": "2cc39f39dba146d5b4121f2ac4fb405e",
+                "id": "potted_plant-3 (medium-sized meeting room)",
+                "centroid": [
+                    1.4999821186065674,
+                    0.2773474007844925,
+                    0.1215321272611618
+                ],
+                "axesLengths": [
+                    0.475283145904541,
+                    0.5547061860561371,
+                    0.23307427763938904
+                ],
+                "normalizedAxes": [
+                    1.0,
+                    -0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "min": [
+                    1.2623405456542969,
+                    -5.692243576049805e-06,
+                    0.0049949586391448975
+                ],
+                "max": [
+                    1.737623691558838,
+                    0.5547005236148834,
+                    0.23806920647621155
+                ],
+                "instance_id": 1991
+            },
+            "storage_cabinet-0": {
+                "name": "storage_cabinet-0",
+                "category": "storage cabinet",
+                "object_name": "storage_cabinet-0 (medium-sized meeting room)",
+                "assetId": "22e778c9e4604b35be0394b04024f94a",
+                "id": "storage_cabinet-0 (medium-sized meeting room)",
+                "centroid": [
+                    2.700000047683716,
+                    1.0269224047660828,
+                    5.678485631942749
+                ],
+                "axesLengths": [
+                    1.1118750572204594,
+                    2.0538727045059204,
+                    0.6330275535583496
+                ],
+                "normalizedAxes": [
+                    -1.0,
+                    -0.0,
+                    -1.2246467991473532e-16,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.2246467991473532e-16,
+                    0.0,
+                    -1.0
+                ],
+                "min": [
+                    2.1440625190734863,
+                    -1.3947486877441406e-05,
+                    5.361971855163574
+                ],
+                "max": [
+                    3.2559380531311035,
+                    2.0538586378097534,
+                    5.994999885559082
+                ],
+                "instance_id": 2673
+            },
+            "side_table-0": {
+                "name": "side_table-0",
+                "category": "side table",
+                "object_name": "side_table-1 (medium-sized meeting room)",
+                "assetId": "2806eb667b6a4813b1d7d5a73f9bf3ea",
+                "id": "side_table-1 (medium-sized meeting room)",
+                "centroid": [
+                    1.5,
+                    0.22253889590501785,
+                    5.675285816192627
+                ],
+                "axesLengths": [
+                    0.639479398727417,
+                    0.44507740437984467,
+                    0.6394281387329102
+                ],
+                "normalizedAxes": [
+                    -1.0,
+                    -0.0,
+                    -1.2246467991473532e-16,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.2246467991473532e-16,
+                    0.0,
+                    -1.0
+                ],
+                "min": [
+                    1.180260181427002,
+                    1.043081283569336e-07,
+                    5.355571746826172
+                ],
+                "max": [
+                    1.819739818572998,
+                    0.4450775235891342,
+                    5.994999885559082
+                ],
+                "instance_id": 9971
+            },
+            "side_table-1": {
+                "name": "side_table-1",
+                "category": "side table",
+                "object_name": "side_table-0 (medium-sized meeting room)",
+                "assetId": "2806eb667b6a4813b1d7d5a73f9bf3ea",
+                "id": "side_table-0 (medium-sized meeting room)",
+                "centroid": [
+                    2.700000047683716,
+                    0.22253889590501785,
+                    0.3247142434120178
+                ],
+                "axesLengths": [
+                    0.6394791603088379,
+                    0.44507740437984467,
+                    0.6394281387329102
+                ],
+                "normalizedAxes": [
+                    1.0,
+                    -0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "min": [
+                    2.380260467529297,
+                    1.341104507446289e-07,
+                    0.005000114440917969
+                ],
+                "max": [
+                    3.0197396278381348,
+                    0.4450775533914566,
+                    0.6444282531738281
+                ],
+                "instance_id": 743
+            },
+            "magazine-0": {
+                "name": "magazine-0",
+                "category": "magazine",
+                "object_name": "magazine-0|side_table-1 (medium-sized meeting room)",
+                "assetId": "84683791c7e74992b8f2baeb52595de6",
+                "id": "magazine-0|side_table-1 (medium-sized meeting room)",
+                "centroid": [
+                    1.3441429138183594,
+                    0.6967713087797165,
+                    5.716872930526733
+                ],
+                "axesLengths": [
+                    0.18705081939697266,
+                    0.4922451078891754,
+                    0.06371641159057617
+                ],
+                "normalizedAxes": [
+                    -1.0,
+                    -0.0,
+                    -1.2246467991473532e-16,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.2246467991473532e-16,
+                    0.0,
+                    -1.0
+                ],
+                "min": [
+                    1.250617504119873,
+                    0.45064878463745117,
+                    5.685014724731445
+                ],
+                "max": [
+                    1.4376683235168457,
+                    0.9428942203521729,
+                    5.74873161315918
+                ],
+                "instance_id": 5298
+            },
+            "book-0": {
+                "name": "book-0",
+                "category": "book",
+                "object_name": "book-1|bookshelf-0 (medium-sized meeting room)",
+                "assetId": "1e14919815ef4d8191886df06fa3cbc5",
+                "id": "book-1|bookshelf-0 (medium-sized meeting room)",
+                "centroid": [
+                    5.677812576293945,
+                    2.1560603380203247,
+                    1.5652194619178772
+                ],
+                "axesLengths": [
+                    0.307658314704895,
+                    0.06516432762145996,
+                    0.1987905502319336
+                ],
+                "normalizedAxes": [
+                    -2.220446049250313e-16,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.0,
+                    0.0,
+                    -1.0,
+                    -0.0,
+                    -2.220446049250313e-16
+                ],
+                "min": [
+                    5.5784173011779785,
+                    2.1234779357910156,
+                    1.4113903045654297
+                ],
+                "max": [
+                    5.777207851409912,
+                    2.1886425018310547,
+                    1.7190487384796143
+                ],
+                "instance_id": 395
+            },
+            "magazine-1": {
+                "name": "magazine-1",
+                "category": "magazine",
+                "object_name": "magazine-0|side_table-0 (medium-sized meeting room)",
+                "assetId": "84683791c7e74992b8f2baeb52595de6",
+                "id": "magazine-0|side_table-0 (medium-sized meeting room)",
+                "centroid": [
+                    2.5441431999206543,
+                    0.6967719048261642,
+                    0.345469132065773
+                ],
+                "axesLengths": [
+                    0.18705081939697266,
+                    0.4922451078891754,
+                    0.06371662020683289
+                ],
+                "normalizedAxes": [
+                    1.0,
+                    -0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "min": [
+                    2.450617790222168,
+                    0.4506492614746094,
+                    0.31361082196235657
+                ],
+                "max": [
+                    2.6376686096191406,
+                    0.942894697189331,
+                    0.37732747197151184
+                ],
+                "instance_id": 532
+            },
+            "conference_phone-0": {
+                "name": "conference_phone-0",
+                "category": "conference phone",
+                "object_name": "conference phone-0|conference_table-0 (medium-sized meeting room)",
+                "assetId": "dbef08259e8040bfb74d827a04f1abba",
+                "id": "conference phone-0|conference_table-0 (medium-sized meeting room)",
+                "centroid": [
+                    4.380177736282349,
+                    1.4225067496299744,
+                    0.7304997593164444
+                ],
+                "axesLengths": [
+                    0.7272293269634247,
+                    1.1208316087722778,
+                    0.06844854354858398
+                ],
+                "normalizedAxes": [
+                    2.220446049250313e-16,
+                    -0.0,
+                    -1.0,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.0,
+                    0.0,
+                    2.220446049250313e-16
+                ],
+                "min": [
+                    4.345952987670898,
+                    0.8620908260345459,
+                    0.36688506603240967
+                ],
+                "max": [
+                    4.414402008056641,
+                    1.9829227924346924,
+                    1.0941144227981567
+                ],
+                "instance_id": 4070
+            },
+            "wall_art-0": {
+                "name": "wall_art-0",
+                "category": "wall art",
+                "object_name": "wall_art-2 (medium-sized meeting room)",
+                "assetId": "7f5d9e1912d34f8eb02e64ac4b8322da",
+                "id": "wall_art-2 (medium-sized meeting room)",
+                "centroid": [
+                    5.9535287618637085,
+                    1.9894323945045471,
+                    5.399997234344482
+                ],
+                "axesLengths": [
+                    0.8753032684326172,
+                    1.0211361646652222,
+                    0.07294225692749023
+                ],
+                "normalizedAxes": [
+                    -2.220446049250313e-16,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.0,
+                    0.0,
+                    -1.0,
+                    -0.0,
+                    -2.220446049250313e-16
+                ],
+                "min": [
+                    5.917057037353516,
+                    1.4788641929626465,
+                    4.962346076965332
+                ],
+                "max": [
+                    5.989999771118164,
+                    2.500000238418579,
+                    5.837649345397949
+                ],
+                "instance_id": 8736
+            },
+            "office_supplies-0": {
+                "name": "office_supplies-0",
+                "category": "office supplies",
+                "object_name": "office supplies-3|storage_cabinet-0 (medium-sized meeting room)",
+                "assetId": "120acbec47594bb1b0e51fbb5f9eae62",
+                "id": "office supplies-3|storage_cabinet-0 (medium-sized meeting room)",
+                "centroid": [
+                    2.8394088745117188,
+                    2.174270749092102,
+                    5.555794954299927
+                ],
+                "axesLengths": [
+                    0.29284048080444336,
+                    0.22799181938171387,
+                    0.08673810958862305
+                ],
+                "normalizedAxes": [
+                    -1.0,
+                    -0.0,
+                    -1.2246467991473532e-16,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.2246467991473532e-16,
+                    0.0,
+                    -1.0
+                ],
+                "min": [
+                    2.692988634109497,
+                    2.060274839401245,
+                    5.512425422668457
+                ],
+                "max": [
+                    2.9858291149139404,
+                    2.288266897201538,
+                    5.599164009094238
+                ],
+                "instance_id": 8637
+            },
+            "wall_art-1": {
+                "name": "wall_art-1",
+                "category": "wall art",
+                "object_name": "wall_art-0 (medium-sized meeting room)",
+                "assetId": "f5f03d29e8074f9d81a9c45d15e67992",
+                "id": "wall_art-0 (medium-sized meeting room)",
+                "centroid": [
+                    5.951846599578857,
+                    1.9242135286331177,
+                    3.2999998331069946
+                ],
+                "axesLengths": [
+                    0.38152480125427246,
+                    0.648425817489624,
+                    0.07630634307861328
+                ],
+                "normalizedAxes": [
+                    -2.220446049250313e-16,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.0,
+                    0.0,
+                    -1.0,
+                    -0.0,
+                    -2.220446049250313e-16
+                ],
+                "min": [
+                    5.913693428039551,
+                    1.6000006198883057,
+                    3.1092371940612793
+                ],
+                "max": [
+                    5.989999771118164,
+                    2.2484264373779297,
+                    3.490762233734131
+                ],
+                "instance_id": 4170
+            },
+            "presentation_board-0": {
+                "name": "presentation_board-0",
+                "category": "presentation board",
+                "object_name": "presentation_board-1 (medium-sized meeting room)",
+                "assetId": "469dd17fa47b4aac9fd6828f91893ee2",
+                "id": "presentation_board-1 (medium-sized meeting room)",
+                "centroid": [
+                    0.027957066893577576,
+                    1.4555238485336304,
+                    2.4000024795532227
+                ],
+                "axesLengths": [
+                    1.3238840103149414,
+                    0.9109928607940674,
+                    0.03591320663690538
+                ],
+                "normalizedAxes": [
+                    2.220446049250313e-16,
+                    -0.0,
+                    -1.0,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.0,
+                    0.0,
+                    2.220446049250313e-16
+                ],
+                "min": [
+                    0.010000452399253845,
+                    1.0000271797180176,
+                    1.738060474395752
+                ],
+                "max": [
+                    0.04591367021203041,
+                    1.9110205173492432,
+                    3.0619444847106934
+                ],
+                "instance_id": 6463
+            },
+            "presentation_board-1": {
+                "name": "presentation_board-1",
+                "category": "presentation board",
+                "object_name": "presentation_board-0 (medium-sized meeting room)",
+                "assetId": "469dd17fa47b4aac9fd6828f91893ee2",
+                "id": "presentation_board-0 (medium-sized meeting room)",
+                "centroid": [
+                    3.299997568130493,
+                    1.4555238485336304,
+                    0.027957065962255
+                ],
+                "axesLengths": [
+                    1.3238835334777832,
+                    0.9109928607940674,
+                    0.03591308183968067
+                ],
+                "normalizedAxes": [
+                    1.0,
+                    -0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "min": [
+                    2.6380558013916016,
+                    1.0000271797180176,
+                    0.010000519454479218
+                ],
+                "max": [
+                    3.9619393348693848,
+                    1.911020278930664,
+                    0.04591360688209534
+                ],
+                "instance_id": 6482
+            },
+            "bookshelf-0": {
+                "name": "bookshelf-0",
+                "category": "bookshelf",
+                "object_name": "bookshelf-0 (medium-sized meeting room)",
+                "assetId": "d7fb99d0aef54833a47e7b22b97b7dbe",
+                "id": "bookshelf-0 (medium-sized meeting room)",
+                "centroid": [
+                    5.778348088264465,
+                    1.0579363703727722,
+                    1.8000001013278961
+                ],
+                "axesLengths": [
+                    0.9969909191131592,
+                    2.1158424615859985,
+                    0.4333043098449716
+                ],
+                "normalizedAxes": [
+                    -2.220446049250313e-16,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.0,
+                    0.0,
+                    -1.0,
+                    -0.0,
+                    -2.220446049250313e-16
+                ],
+                "min": [
+                    5.5616960525512695,
+                    1.5020370483398438e-05,
+                    1.3015046119689941
+                ],
+                "max": [
+                    5.994999885559082,
+                    2.115858554840088,
+                    2.2984957695007324
+                ],
+                "instance_id": 9223
+            },
+            "floor_lamp-0": {
+                "name": "floor_lamp-0",
+                "category": "floor lamp",
+                "object_name": "floor_lamp-1 (medium-sized meeting room)",
+                "assetId": "1ff621a6c077450ab2a6cf6680196315",
+                "id": "floor_lamp-1 (medium-sized meeting room)",
+                "centroid": [
+                    0.2580837085843086,
+                    0.6871462762355804,
+                    3.3000000715255737
+                ],
+                "axesLengths": [
+                    0.22658848762512207,
+                    1.3742449879646301,
+                    0.5061508119106292
+                ],
+                "normalizedAxes": [
+                    2.220446049250313e-16,
+                    -0.0,
+                    -1.0,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.0,
+                    0.0,
+                    2.220446049250313e-16
+                ],
+                "min": [
+                    0.00500825047492981,
+                    2.384185791015625e-05,
+                    3.1867055892944336
+                ],
+                "max": [
+                    0.5111590921878815,
+                    1.374269962310791,
+                    3.4132943153381348
+                ],
+                "instance_id": 5021
+            },
+            "floor_lamp-1": {
+                "name": "floor_lamp-1",
+                "category": "floor lamp",
+                "object_name": "floor_lamp-0 (medium-sized meeting room)",
+                "assetId": "1ff621a6c077450ab2a6cf6680196315",
+                "id": "floor_lamp-0 (medium-sized meeting room)",
+                "centroid": [
+                    5.741916298866272,
+                    0.6871462762355804,
+                    3.899999976158142
+                ],
+                "axesLengths": [
+                    0.22658848762512163,
+                    1.3742449879646301,
+                    0.5061511993408203
+                ],
+                "normalizedAxes": [
+                    -2.220446049250313e-16,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.0,
+                    0.0,
+                    -1.0,
+                    -0.0,
+                    -2.220446049250313e-16
+                ],
+                "min": [
+                    5.488840103149414,
+                    2.396106719970703e-05,
+                    3.78670597076416
+                ],
+                "max": [
+                    5.994992256164551,
+                    1.3742698431015015,
+                    4.013294219970703
+                ],
+                "instance_id": 4133
+            },
+            "wall_art-2": {
+                "name": "wall_art-2",
+                "category": "wall art",
+                "object_name": "wall_art-1 (medium-sized meeting room)",
+                "assetId": "7f5d9e1912d34f8eb02e64ac4b8322da",
+                "id": "wall_art-1 (medium-sized meeting room)",
+                "centroid": [
+                    5.9535287618637085,
+                    1.9894323945045471,
+                    4.499997138977051
+                ],
+                "axesLengths": [
+                    0.8753032684326172,
+                    1.0211361646652222,
+                    0.07294225692749023
+                ],
+                "normalizedAxes": [
+                    -2.220446049250313e-16,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.0,
+                    0.0,
+                    -1.0,
+                    -0.0,
+                    -2.220446049250313e-16
+                ],
+                "min": [
+                    5.917057037353516,
+                    1.4788641929626465,
+                    4.062345504760742
+                ],
+                "max": [
+                    5.989999771118164,
+                    2.500000238418579,
+                    4.937648773193359
+                ],
+                "instance_id": 3148
+            },
+            "window-0": {
+                "name": "window-0",
+                "category": "window",
+                "object_name": "window|wall|medium-sized meeting room|north|1|0|0",
+                "assetId": "Window_Fixed_96x48",
+                "id": "window|wall|medium-sized meeting room|north|1|0|0",
+                "centroid": [
+                    1.5395057201385498,
+                    1.1886987686157227,
+                    6.0
+                ],
+                "axesLengths": [
+                    2.443573474884033,
+                    1.2273976802825928,
+                    0.08287620544433624
+                ],
+                "normalizedAxes": [
+                    -1.0,
+                    -0.0,
+                    -1.2246467991473532e-16,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.2246467991473532e-16,
+                    0.0,
+                    -1.0
+                ],
+                "min": [
+                    0.3177189826965332,
+                    0.5749999284744263,
+                    5.958561897277832
+                ],
+                "max": [
+                    2.7612924575805664,
+                    1.802397608757019,
+                    6.041438102722168
+                ],
+                "instance_id": 7486
+            },
+            "window-1": {
+                "name": "window-1",
+                "category": "window",
+                "object_name": "window|wall|medium-sized meeting room|north|1|1|1",
+                "assetId": "Window_Fixed_96x48",
+                "id": "window|wall|medium-sized meeting room|north|1|1|1",
+                "centroid": [
+                    4.21088981628418,
+                    1.1886987686157227,
+                    6.0
+                ],
+                "axesLengths": [
+                    2.443572998046875,
+                    1.2273976802825928,
+                    0.08287620544433624
+                ],
+                "normalizedAxes": [
+                    -1.0,
+                    -0.0,
+                    -1.2246467991473532e-16,
+                    0.0,
+                    1.0,
+                    -0.0,
+                    1.2246467991473532e-16,
+                    0.0,
+                    -1.0
+                ],
+                "min": [
+                    2.989103317260742,
+                    0.5749999284744263,
+                    5.958561897277832
+                ],
+                "max": [
+                    5.432676315307617,
+                    1.802397608757019,
+                    6.041438102722168
+                ],
+                "instance_id": 6942
+            }
+        }
+    }
+}

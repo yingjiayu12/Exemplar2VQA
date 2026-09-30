@@ -1,0 +1,5423 @@
+{
+    "doors": [
+        {
+            "assetId": "Doorway_Double_3",
+            "id": "door|0|exterior|co-working space",
+            "openable": false,
+            "openness": 0,
+            "room0": "exterior",
+            "room1": "co-working space",
+            "wall0": "wall|co-working space|north|1|exterior",
+            "wall1": "wall|co-working space|north|1",
+            "holePolygon": [
+                {
+                    "x": 1.0647328488195396,
+                    "y": 0,
+                    "z": 0
+                },
+                {
+                    "x": 3.0075429074132893,
+                    "y": 2.09014630317688,
+                    "z": 0
+                }
+            ],
+            "assetPosition": {
+                "x": 2.0361378781164143,
+                "y": 1.04507315158844,
+                "z": 0.0
+            },
+            "doorBoxes": [
+                [
+                    [
+                        6.935267151180461,
+                        5.0
+                    ],
+                    [
+                        4.992457092586711,
+                        5.0
+                    ],
+                    [
+                        4.992457092586711,
+                        6.0
+                    ],
+                    [
+                        6.935267151180461,
+                        6.0
+                    ]
+                ],
+                [
+                    [
+                        6.935267151180461,
+                        6.0
+                    ],
+                    [
+                        4.992457092586711,
+                        6.0
+                    ],
+                    [
+                        4.992457092586711,
+                        7.0
+                    ],
+                    [
+                        6.935267151180461,
+                        7.0
+                    ]
+                ]
+            ],
+            "doorSegment": [
+                [
+                    6.935267151180461,
+                    6.0
+                ],
+                [
+                    4.992457092586711,
+                    6.0
+                ]
+            ]
+        }
+    ],
+    "metadata": {
+        "agent": {
+            "horizon": 30,
+            "position": {
+                "x": 3.5,
+                "y": 0.95,
+                "z": 2.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "standing": true
+        },
+        "roomSpecId": "Living Room",
+        "schema": "1.0.0",
+        "warnings": {},
+        "agentPoses": {
+            "arm": {
+                "horizon": 30,
+                "position": {
+                    "x": 3.5,
+                    "y": 0.95,
+                    "z": 2.0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                },
+                "standing": true
+            },
+            "default": {
+                "horizon": 30,
+                "position": {
+                    "x": 3.5,
+                    "y": 0.95,
+                    "z": 2.0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                },
+                "standing": true
+            },
+            "locobot": {
+                "horizon": 30,
+                "position": {
+                    "x": 3.5,
+                    "y": 0.95,
+                    "z": 2.0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                }
+            },
+            "stretch": {
+                "horizon": 30,
+                "position": {
+                    "x": 3.5,
+                    "y": 0.95,
+                    "z": 2.0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                },
+                "standing": true
+            }
+        }
+    },
+    "objects": [
+        {
+            "assetId": "1c90baeb49fe4ba6816cfca4fc8ef330",
+            "id": "communal_desk-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 1.6,
+                "y": 0.3343359485522815,
+                "z": 3.6
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    207.9064618167671,
+                    248.56985297750924
+                ],
+                [
+                    207.9064618167671,
+                    471.43014702249076
+                ],
+                [
+                    112.09353818323291,
+                    471.43014702249076
+                ],
+                [
+                    112.09353818323291,
+                    248.56985297750924
+                ],
+                [
+                    207.9064618167671,
+                    248.56985297750924
+                ]
+            ],
+            "object_name": "communal_desk-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "d7fb99d0aef54833a47e7b22b97b7dbe",
+            "id": "bookshelf-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 4.4,
+                "y": 1.0579212646038212,
+                "z": 0.22165193582437598
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    494.849540069886,
+                    -4.5
+                ],
+                [
+                    494.849540069886,
+                    48.83038716487519
+                ],
+                [
+                    385.150459930114,
+                    48.83038716487519
+                ],
+                [
+                    385.150459930114,
+                    -4.5
+                ]
+            ],
+            "object_name": "bookshelf-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "d7fb99d0aef54833a47e7b22b97b7dbe",
+            "id": "bookshelf-1 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 1.2,
+                "y": 1.0579212646038212,
+                "z": 0.22165193582437598
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    174.84954006988602,
+                    -4.5
+                ],
+                [
+                    174.84954006988602,
+                    48.83038716487519
+                ],
+                [
+                    65.15045993011398,
+                    48.83038716487519
+                ],
+                [
+                    65.15045993011398,
+                    -4.5
+                ]
+            ],
+            "object_name": "bookshelf-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "d7fb99d0aef54833a47e7b22b97b7dbe",
+            "id": "bookshelf-2 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 6.0,
+                "y": 1.0579212646038212,
+                "z": 0.22165193582437598
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    654.8495400698861,
+                    -4.5
+                ],
+                [
+                    654.8495400698861,
+                    48.83038716487519
+                ],
+                [
+                    545.1504599301139,
+                    48.83038716487519
+                ],
+                [
+                    545.1504599301139,
+                    -4.5
+                ]
+            ],
+            "object_name": "bookshelf-2",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "58a15b68bee649c9bfc6d6ba2b4b2fcf",
+            "id": "cabinet-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 0.8,
+                "y": 0.5986846311777734,
+                "z": 5.78486556038826
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    140.1101600316777,
+                    604.5
+                ],
+                [
+                    140.1101600316777,
+                    552.4731120776521
+                ],
+                [
+                    19.8898399683223,
+                    552.4731120776521
+                ],
+                [
+                    19.8898399683223,
+                    604.5
+                ]
+            ],
+            "object_name": "cabinet-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "58a15b68bee649c9bfc6d6ba2b4b2fcf",
+            "id": "cabinet-1 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 4.0,
+                "y": 0.5986846311777734,
+                "z": 5.78486556038826
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    460.1101600316777,
+                    604.5
+                ],
+                [
+                    460.1101600316777,
+                    552.4731120776521
+                ],
+                [
+                    339.8898399683223,
+                    552.4731120776521
+                ],
+                [
+                    339.8898399683223,
+                    604.5
+                ]
+            ],
+            "object_name": "cabinet-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "7bcfc93c338c46a880da7ef86eb30808",
+            "id": "sofa-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 7.504585079931299,
+                "y": 0.4583268668178836,
+                "z": 4.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    696.4170159862599,
+                    308.4754024421092
+                ],
+                [
+                    696.4170159862599,
+                    491.5245975578908
+                ],
+                [
+                    804.5,
+                    491.5245975578908
+                ],
+                [
+                    804.5,
+                    308.4754024421092
+                ]
+            ],
+            "object_name": "sofa-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "7bcfc93c338c46a880da7ef86eb30808",
+            "id": "sofa-1 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 7.504585079931299,
+                "y": 0.4583268668178836,
+                "z": 1.6
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    696.4170159862599,
+                    68.47540244210921
+                ],
+                [
+                    696.4170159862599,
+                    251.5245975578908
+                ],
+                [
+                    804.5,
+                    251.5245975578908
+                ],
+                [
+                    804.5,
+                    68.47540244210921
+                ]
+            ],
+            "object_name": "sofa-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "4ff4b1b213dd4aea87653c7c546abc18",
+            "id": "coffee_table-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 6.4,
+                "y": 0.22791478029638837,
+                "z": 4.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    680.5530633413657,
+                    336.65381679111897
+                ],
+                [
+                    680.5530633413657,
+                    463.34618320888103
+                ],
+                [
+                    599.4469366586343,
+                    463.34618320888103
+                ],
+                [
+                    599.4469366586343,
+                    336.65381679111897
+                ],
+                [
+                    680.5530633413657,
+                    336.65381679111897
+                ]
+            ],
+            "object_name": "coffee_table-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "14fda9257bb2428daada126f345e3d04",
+            "id": "meeting_table-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 2.8,
+                "y": 0.3993220899997383,
+                "z": 0.5817420013440683
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    368.66751092031967,
+                    -4.5
+                ],
+                [
+                    368.66751092031967,
+                    120.84840026881365
+                ],
+                [
+                    191.33248907968033,
+                    120.84840026881365
+                ],
+                [
+                    191.33248907968033,
+                    -4.5
+                ]
+            ],
+            "object_name": "meeting_table-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "RoboTHOR_office_chair_allak",
+            "id": "rolling_chair-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 1.2,
+                "y": 0.49566560983657837,
+                "z": 2.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    155.36980032920837,
+                    163.79465579986572
+                ],
+                [
+                    155.36980032920837,
+                    236.20534420013428
+                ],
+                [
+                    84.63019967079163,
+                    236.20534420013428
+                ],
+                [
+                    84.63019967079163,
+                    163.79465579986572
+                ],
+                [
+                    155.36980032920837,
+                    163.79465579986572
+                ]
+            ],
+            "object_name": "rolling_chair-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "RoboTHOR_office_chair_allak",
+            "id": "rolling_chair-1 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 2.0,
+                "y": 0.49566560983657837,
+                "z": 2.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    235.36980032920837,
+                    163.79465579986572
+                ],
+                [
+                    235.36980032920837,
+                    236.20534420013428
+                ],
+                [
+                    164.63019967079163,
+                    236.20534420013428
+                ],
+                [
+                    164.63019967079163,
+                    163.79465579986572
+                ],
+                [
+                    235.36980032920837,
+                    163.79465579986572
+                ]
+            ],
+            "object_name": "rolling_chair-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "RoboTHOR_office_chair_allak",
+            "id": "rolling_chair-2 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 2.8,
+                "y": 0.49566560983657837,
+                "z": 2.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    243.79465579986572,
+                    244.63019967079163
+                ],
+                [
+                    243.79465579986572,
+                    315.3698003292084
+                ],
+                [
+                    316.2053442001343,
+                    315.3698003292084
+                ],
+                [
+                    316.2053442001343,
+                    244.63019967079163
+                ],
+                [
+                    243.79465579986572,
+                    244.63019967079163
+                ]
+            ],
+            "object_name": "rolling_chair-2",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "RoboTHOR_office_chair_allak",
+            "id": "rolling_chair-3 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 2.8,
+                "y": 0.49566560983657837,
+                "z": 3.6
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    243.79465579986572,
+                    324.6301996707916
+                ],
+                [
+                    243.79465579986572,
+                    395.3698003292084
+                ],
+                [
+                    316.2053442001343,
+                    395.3698003292084
+                ],
+                [
+                    316.2053442001343,
+                    324.6301996707916
+                ],
+                [
+                    243.79465579986572,
+                    324.6301996707916
+                ]
+            ],
+            "object_name": "rolling_chair-3",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "RoboTHOR_office_chair_allak",
+            "id": "rolling_chair-4 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 2.8,
+                "y": 0.49566560983657837,
+                "z": 4.4
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    243.79465579986572,
+                    404.6301996707916
+                ],
+                [
+                    243.79465579986572,
+                    475.3698003292084
+                ],
+                [
+                    316.2053442001343,
+                    475.3698003292084
+                ],
+                [
+                    316.2053442001343,
+                    404.6301996707916
+                ],
+                [
+                    243.79465579986572,
+                    404.6301996707916
+                ]
+            ],
+            "object_name": "rolling_chair-4",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "RoboTHOR_office_chair_allak",
+            "id": "rolling_chair-5 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 2.0,
+                "y": 0.49566560983657837,
+                "z": 5.2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    235.36980032920837,
+                    556.2053442001343
+                ],
+                [
+                    235.36980032920837,
+                    483.7946557998657
+                ],
+                [
+                    164.63019967079163,
+                    483.7946557998657
+                ],
+                [
+                    164.63019967079163,
+                    556.2053442001343
+                ],
+                [
+                    235.36980032920837,
+                    556.2053442001343
+                ]
+            ],
+            "object_name": "rolling_chair-5",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "RoboTHOR_office_chair_allak",
+            "id": "rolling_chair-6 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 2.8,
+                "y": 0.49566560983657837,
+                "z": 5.2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    316.2053442001343,
+                    484.6301996707916
+                ],
+                [
+                    316.2053442001343,
+                    555.3698003292084
+                ],
+                [
+                    243.79465579986572,
+                    555.3698003292084
+                ],
+                [
+                    243.79465579986572,
+                    484.6301996707916
+                ],
+                [
+                    316.2053442001343,
+                    484.6301996707916
+                ]
+            ],
+            "object_name": "rolling_chair-6",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "RoboTHOR_office_chair_allak",
+            "id": "rolling_chair-7 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 0.3170534420013428,
+                "y": 0.49566560983657837,
+                "z": 4.4
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    67.91068840026855,
+                    404.6301996707916
+                ],
+                [
+                    67.91068840026855,
+                    475.3698003292084
+                ],
+                [
+                    -4.5,
+                    475.3698003292084
+                ],
+                [
+                    -4.5,
+                    404.6301996707916
+                ]
+            ],
+            "object_name": "rolling_chair-7",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "RoboTHOR_office_chair_allak",
+            "id": "rolling_chair-8 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 0.3170534420013428,
+                "y": 0.49566560983657837,
+                "z": 3.6
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    67.91068840026855,
+                    324.6301996707916
+                ],
+                [
+                    67.91068840026855,
+                    395.3698003292084
+                ],
+                [
+                    -4.5,
+                    395.3698003292084
+                ],
+                [
+                    -4.5,
+                    324.6301996707916
+                ]
+            ],
+            "object_name": "rolling_chair-8",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "RoboTHOR_office_chair_allak",
+            "id": "rolling_chair-9 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 0.3170534420013428,
+                "y": 0.49566560983657837,
+                "z": 2.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    67.91068840026855,
+                    244.63019967079163
+                ],
+                [
+                    67.91068840026855,
+                    315.3698003292084
+                ],
+                [
+                    -4.5,
+                    315.3698003292084
+                ],
+                [
+                    -4.5,
+                    244.63019967079163
+                ]
+            ],
+            "object_name": "rolling_chair-9",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "b84dfc98d44d470ebff1ff6fbe36f57a",
+            "id": "painting-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 7.956455937409774,
+                "y": 2.041619511693716,
+                "z": 4.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    800.0,
+                    347.7000654116273
+                ],
+                [
+                    800.0,
+                    452.2999345883727
+                ],
+                [
+                    793.2911874819547,
+                    452.2999345883727
+                ],
+                [
+                    793.2911874819547,
+                    347.7000654116273
+                ],
+                [
+                    800.0,
+                    347.7000654116273
+                ]
+            ],
+            "object_name": "painting-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "486bb167384240139c1b67fdb9f2c8e9",
+            "id": "painting-1 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 7.938070122262196,
+                "y": 2.2543094085741218,
+                "z": 1.6000000000000005
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    800.0,
+                    107.03148298965394
+                ],
+                [
+                    800.0,
+                    212.96851701034618
+                ],
+                [
+                    789.614024452439,
+                    212.96851701034618
+                ],
+                [
+                    789.614024452439,
+                    107.03148298965394
+                ],
+                [
+                    800.0,
+                    107.03148298965394
+                ]
+            ],
+            "object_name": "painting-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "3196828539324d05a21ea29747076e83",
+            "id": "painting-2 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 7.975453430563212,
+                "y": 2.0538606107234956,
+                "z": 5.2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    800.0,
+                    482.1782720088959
+                ],
+                [
+                    800.0,
+                    557.8217279911041
+                ],
+                [
+                    797.0906861126423,
+                    557.8217279911041
+                ],
+                [
+                    797.0906861126423,
+                    482.1782720088959
+                ],
+                [
+                    800.0,
+                    482.1782720088959
+                ]
+            ],
+            "object_name": "painting-2",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "2551f32ab50a48acbc615aa29bc45c39",
+            "id": "whiteboard-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 0.0792889575506527,
+                "y": 1.8289280426705075,
+                "z": 3.6
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    13.857791510130541,
+                    316.8277951016665
+                ],
+                [
+                    13.857791510130541,
+                    403.1722048983335
+                ],
+                [
+                    0.0,
+                    403.1722048983335
+                ],
+                [
+                    0.0,
+                    316.8277951016665
+                ],
+                [
+                    13.857791510130541,
+                    316.8277951016665
+                ]
+            ],
+            "object_name": "whiteboard-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "2551f32ab50a48acbc615aa29bc45c39",
+            "id": "whiteboard-1 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 0.0792889575506527,
+                "y": 1.8289280426705075,
+                "z": 0.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    13.857791510130541,
+                    36.8277951016665
+                ],
+                [
+                    13.857791510130541,
+                    123.17220489833349
+                ],
+                [
+                    0.0,
+                    123.17220489833349
+                ],
+                [
+                    0.0,
+                    36.8277951016665
+                ],
+                [
+                    13.857791510130541,
+                    36.8277951016665
+                ]
+            ],
+            "object_name": "whiteboard-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "2551f32ab50a48acbc615aa29bc45c39",
+            "id": "whiteboard-2 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 7.920711042449348,
+                "y": 1.8289280426705075,
+                "z": 2.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    800.0,
+                    236.8277951016665
+                ],
+                [
+                    800.0,
+                    323.1722048983335
+                ],
+                [
+                    786.1422084898694,
+                    323.1722048983335
+                ],
+                [
+                    786.1422084898694,
+                    236.8277951016665
+                ],
+                [
+                    800.0,
+                    236.8277951016665
+                ]
+            ],
+            "object_name": "whiteboard-2",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "71ae0bf39a71440eb4f091579db394e2",
+            "id": "wall_shelf-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 0.8,
+                "y": 2.388493262706919,
+                "z": 5.774826548175609
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    153.51729210386884,
+                    556.9653096351218
+                ],
+                [
+                    153.51729210386884,
+                    600.0
+                ],
+                [
+                    6.482707896131146,
+                    600.0
+                ],
+                [
+                    6.482707896131146,
+                    556.9653096351218
+                ],
+                [
+                    153.51729210386884,
+                    556.9653096351218
+                ]
+            ],
+            "object_name": "wall_shelf-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "71ae0bf39a71440eb4f091579db394e2",
+            "id": "wall_shelf-1 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 4.0,
+                "y": 2.388493262706919,
+                "z": 5.774826548175609
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    473.51729210386884,
+                    556.9653096351218
+                ],
+                [
+                    473.51729210386884,
+                    600.0
+                ],
+                [
+                    326.48270789613116,
+                    600.0
+                ],
+                [
+                    326.48270789613116,
+                    556.9653096351218
+                ],
+                [
+                    473.51729210386884,
+                    556.9653096351218
+                ]
+            ],
+            "object_name": "wall_shelf-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "71ae0bf39a71440eb4f091579db394e2",
+            "id": "wall_shelf-2 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 0.22517345182439114,
+                "y": 2.388493262706919,
+                "z": 2.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    43.03469036487822,
+                    126.48270789613115
+                ],
+                [
+                    43.03469036487822,
+                    273.51729210386884
+                ],
+                [
+                    0.0,
+                    273.51729210386884
+                ],
+                [
+                    0.0,
+                    126.48270789613115
+                ],
+                [
+                    43.03469036487822,
+                    126.48270789613115
+                ]
+            ],
+            "object_name": "wall_shelf-2",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "71ae0bf39a71440eb4f091579db394e2",
+            "id": "wall_shelf-3 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 2.4,
+                "y": 2.388493262706919,
+                "z": 5.774826548175609
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    313.51729210386884,
+                    556.9653096351218
+                ],
+                [
+                    313.51729210386884,
+                    600.0
+                ],
+                [
+                    166.48270789613116,
+                    600.0
+                ],
+                [
+                    166.48270789613116,
+                    556.9653096351218
+                ],
+                [
+                    313.51729210386884,
+                    556.9653096351218
+                ]
+            ],
+            "object_name": "wall_shelf-3",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "1eefa14f8d9547938a290617fda52959",
+            "id": "desk lamp-3|communal_desk-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 1.8518035411834717,
+                "y": 0.745900095635673,
+                "z": 3.3398921489715576
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "152e0c6ae77e446f8f31f10d1d487aff",
+            "id": "office supplies-1|cabinet-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 1.0510258674621582,
+                "y": 1.3105000020023958,
+                "z": 5.8549346923828125
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "120acbec47594bb1b0e51fbb5f9eae62",
+            "id": "office supplies-4|cabinet-1 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 3.7495369911193848,
+                "y": 1.310755942966911,
+                "z": 5.854926586151123
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "152e0c6ae77e446f8f31f10d1d487aff",
+            "id": "office supplies-3|cabinet-1 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 1.0510258674621582,
+                "y": 1.3105000020023958,
+                "z": 5.8549346923828125
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "828c7ba1bdaa4d69b8d6cbc7b080c007",
+            "id": "small plant-0|coffee_table-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 6.236594200134277,
+                "y": 0.607906622407543,
+                "z": 3.976487398147583
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Laptop_22",
+            "id": "laptop-0|meeting_table-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 2.3919854164123535,
+                "y": 0.9709829518795013,
+                "z": 0.5834701657295227
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "828c7ba1bdaa4d69b8d6cbc7b080c007",
+            "id": "small plant-1|wall_shelf-3 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 6.236594200134277,
+                "y": 0.607906622407543,
+                "z": 3.976487398147583
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "828c7ba1bdaa4d69b8d6cbc7b080c007",
+            "id": "small plant-2|wall_shelf-2 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 6.236594200134277,
+                "y": 0.607906622407543,
+                "z": 3.976487398147583
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "16e01e5eb3d64510a978af91e3b6c033",
+            "id": "photo frame-0|wall_shelf-1 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 4.17913818359375,
+                "y": 3.0255535657519386,
+                "z": 5.783127784729004
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "828c7ba1bdaa4d69b8d6cbc7b080c007",
+            "id": "small plant-1|wall_shelf-1 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 6.236594200134277,
+                "y": 0.607906622407543,
+                "z": 3.976487398147583
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "16e01e5eb3d64510a978af91e3b6c033",
+            "id": "photo frame-1|wall_shelf-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 0.44167232513427734,
+                "y": 3.031172137987046,
+                "z": 5.684474945068359
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "828c7ba1bdaa4d69b8d6cbc7b080c007",
+            "id": "small plant-1|wall_shelf-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 6.236594200134277,
+                "y": 0.607906622407543,
+                "z": 3.976487398147583
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "layer": "Procedural0"
+        }
+    ],
+    "proceduralParameters": {
+        "ceilingColor": {
+            "b": 0.3058823529411765,
+            "g": 0.3843137254901961,
+            "r": 0.42745098039215684
+        },
+        "ceilingMaterial": {
+            "name": "Walldrywall4"
+        },
+        "floorColliderThickness": 1.0,
+        "lights": [
+            {
+                "id": "DirectionalLight",
+                "position": {
+                    "x": 0.84,
+                    "y": 0.1855,
+                    "z": -1.09
+                },
+                "rotation": {
+                    "x": 66,
+                    "y": 75,
+                    "z": 0
+                },
+                "shadow": {
+                    "type": "Soft",
+                    "strength": 1,
+                    "normalBias": 0,
+                    "bias": 0,
+                    "nearPlane": 0.2,
+                    "resolution": "FromQualitySettings"
+                },
+                "type": "directional",
+                "intensity": 1,
+                "indirectMultiplier": 1.0,
+                "rgb": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                }
+            },
+            {
+                "id": "light|co-working space",
+                "type": "point",
+                "position": {
+                    "x": 4.0,
+                    "y": 3.3,
+                    "z": 3.0
+                },
+                "intensity": 0.75,
+                "range": 15,
+                "rgb": {
+                    "r": 1.0,
+                    "g": 0.855,
+                    "b": 0.722
+                },
+                "shadow": {
+                    "type": "Soft",
+                    "strength": 1,
+                    "normalBias": 0,
+                    "bias": 0.05,
+                    "nearPlane": 0.2,
+                    "resolution": "FromQualitySettings"
+                },
+                "roomId": "co-working space",
+                "layer": "Procedural0",
+                "cullingMaskOff": [
+                    "Procedural1",
+                    "Procedural2",
+                    "Procedural3"
+                ]
+            }
+        ],
+        "receptacleHeight": 0.7,
+        "reflections": [],
+        "skyboxId": "SkyAlbanyHill"
+    },
+    "rooms": [
+        {
+            "ceilings": [],
+            "children": [],
+            "vertices": [
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    6.0
+                ],
+                [
+                    8.0,
+                    6.0
+                ],
+                [
+                    8.0,
+                    0.0
+                ]
+            ],
+            "floorMaterial": {
+                "name": "bathroomTilesTan5"
+            },
+            "floorPolygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 6.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 6.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "id": "co-working space",
+            "roomType": "co-working space",
+            "floor_design": "oak hardwood, satin",
+            "wall_design": "white drywall, smooth",
+            "full_vertices": [
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    6.0
+                ],
+                [
+                    8.0,
+                    6.0
+                ],
+                [
+                    8.0,
+                    0.0
+                ]
+            ],
+            "wallMaterial": {
+                "name": "Walldrywall4"
+            },
+            "layer": "Procedural0"
+        }
+    ],
+    "walls": [
+        {
+            "id": "wall|co-working space|west|0|exterior",
+            "roomId": "co-working space",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 6.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 3.5,
+                    "z": 6.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 3.5,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 6.0,
+            "height": 3.5,
+            "direction": "west",
+            "segment": [
+                [
+                    0.0,
+                    6.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|co-working space|west|0",
+            "roomId": "co-working space",
+            "material": {
+                "name": "Walldrywall4"
+            },
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 3.5,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 3.5,
+                    "z": 6.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 6.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 6.0,
+            "height": 3.5,
+            "direction": "west",
+            "segment": [
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    6.0
+                ]
+            ],
+            "connect_exterior": "wall|co-working space|west|0|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|co-working space|north|1|exterior",
+            "roomId": "co-working space",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 6.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 3.5,
+                    "z": 6.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 3.5,
+                    "z": 6.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 6.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 8.0,
+            "height": 3.5,
+            "direction": "north",
+            "segment": [
+                [
+                    8.0,
+                    6.0
+                ],
+                [
+                    0.0,
+                    6.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|co-working space|north|1",
+            "roomId": "co-working space",
+            "material": {
+                "name": "Walldrywall4"
+            },
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 6.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 3.5,
+                    "z": 6.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 3.5,
+                    "z": 6.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 6.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 8.0,
+            "height": 3.5,
+            "direction": "north",
+            "segment": [
+                [
+                    0.0,
+                    6.0
+                ],
+                [
+                    8.0,
+                    6.0
+                ]
+            ],
+            "connect_exterior": "wall|co-working space|north|1|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|co-working space|east|2|exterior",
+            "roomId": "co-working space",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 3.5,
+                    "z": 0.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 3.5,
+                    "z": 6.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 6.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 6.0,
+            "height": 3.5,
+            "direction": "east",
+            "segment": [
+                [
+                    8.0,
+                    0.0
+                ],
+                [
+                    8.0,
+                    6.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|co-working space|east|2",
+            "roomId": "co-working space",
+            "material": {
+                "name": "Walldrywall4"
+            },
+            "polygon": [
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 6.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 3.5,
+                    "z": 6.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 3.5,
+                    "z": 0.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 6.0,
+            "height": 3.5,
+            "direction": "east",
+            "segment": [
+                [
+                    8.0,
+                    6.0
+                ],
+                [
+                    8.0,
+                    0.0
+                ]
+            ],
+            "connect_exterior": "wall|co-working space|east|2|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|co-working space|south|3|0",
+            "roomId": "co-working space",
+            "material": {
+                "name": "Walldrywall4"
+            },
+            "polygon": [
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 3.5,
+                    "z": 0.0
+                },
+                {
+                    "x": 5.333333333333334,
+                    "y": 3.5,
+                    "z": 0.0
+                },
+                {
+                    "x": 5.333333333333334,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 2.6666666666666665,
+            "height": 3.5,
+            "direction": "south",
+            "segment": [
+                [
+                    8.0,
+                    0.0
+                ],
+                [
+                    5.333333333333334,
+                    0.0
+                ]
+            ],
+            "connect_exterior": "wall|co-working space|south|3|0|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|co-working space|south|3|0|exterior",
+            "roomId": "co-working space",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 5.333333333333334,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 5.333333333333334,
+                    "y": 3.5,
+                    "z": 0.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 3.5,
+                    "z": 0.0
+                },
+                {
+                    "x": 8.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 2.6666666666666665,
+            "height": 3.5,
+            "direction": "south",
+            "segment": [
+                [
+                    5.333333333333334,
+                    0.0
+                ],
+                [
+                    8.0,
+                    0.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|co-working space|south|3|1",
+            "roomId": "co-working space",
+            "material": {
+                "name": "Walldrywall4"
+            },
+            "polygon": [
+                {
+                    "x": 5.333333333333334,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 5.333333333333334,
+                    "y": 3.5,
+                    "z": 0.0
+                },
+                {
+                    "x": 2.666666666666667,
+                    "y": 3.5,
+                    "z": 0.0
+                },
+                {
+                    "x": 2.666666666666667,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 2.6666666666666665,
+            "height": 3.5,
+            "direction": "south",
+            "segment": [
+                [
+                    5.333333333333334,
+                    0.0
+                ],
+                [
+                    2.666666666666667,
+                    0.0
+                ]
+            ],
+            "connect_exterior": "wall|co-working space|south|3|1|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|co-working space|south|3|1|exterior",
+            "roomId": "co-working space",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 2.666666666666667,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 2.666666666666667,
+                    "y": 3.5,
+                    "z": 0.0
+                },
+                {
+                    "x": 5.333333333333334,
+                    "y": 3.5,
+                    "z": 0.0
+                },
+                {
+                    "x": 5.333333333333334,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 2.6666666666666665,
+            "height": 3.5,
+            "direction": "south",
+            "segment": [
+                [
+                    2.666666666666667,
+                    0.0
+                ],
+                [
+                    5.333333333333334,
+                    0.0
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|co-working space|south|3|2",
+            "roomId": "co-working space",
+            "material": {
+                "name": "Walldrywall4"
+            },
+            "polygon": [
+                {
+                    "x": 2.666666666666667,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 2.666666666666667,
+                    "y": 3.5,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 3.5,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 2.6666666666666665,
+            "height": 3.5,
+            "direction": "south",
+            "segment": [
+                [
+                    2.666666666666667,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0
+                ]
+            ],
+            "connect_exterior": "wall|co-working space|south|3|2|exterior",
+            "layer": "Procedural0"
+        },
+        {
+            "id": "wall|co-working space|south|3|2|exterior",
+            "roomId": "co-working space",
+            "material": {
+                "name": "Walldrywall4Tiled"
+            },
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "y": 0,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.0,
+                    "y": 3.5,
+                    "z": 0.0
+                },
+                {
+                    "x": 2.666666666666667,
+                    "y": 3.5,
+                    "z": 0.0
+                },
+                {
+                    "x": 2.666666666666667,
+                    "y": 0,
+                    "z": 0.0
+                }
+            ],
+            "connected_rooms": [],
+            "width": 2.6666666666666665,
+            "height": 3.5,
+            "direction": "south",
+            "segment": [
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    2.666666666666667,
+                    0.0
+                ]
+            ],
+            "layer": "Procedural0"
+        }
+    ],
+    "windows": [
+        {
+            "assetId": "Window_Fixed_96x48",
+            "id": "window|wall|co-working space|south|3|0|0",
+            "room0": "co-working space",
+            "room1": "co-working space",
+            "wall0": "wall|co-working space|south|3|0",
+            "wall1": "wall|co-working space|south|3|0|exterior",
+            "holePolygon": [
+                {
+                    "x": 0.2662472978329333,
+                    "y": 1.2,
+                    "z": 0
+                },
+                {
+                    "x": 2.6598207727169667,
+                    "y": 2.3773976802825927,
+                    "z": 0
+                }
+            ],
+            "assetPosition": {
+                "x": 1.46303403527495,
+                "y": 1.7886988401412962,
+                "z": 0.0
+            },
+            "roomId": "co-working space",
+            "windowSegment": [
+                [
+                    7.733752702167067,
+                    0.0
+                ],
+                [
+                    5.340179227283033,
+                    0.0
+                ]
+            ],
+            "windowBoxes": [
+                [
+                    [
+                        7.733752702167067,
+                        -0.1
+                    ],
+                    [
+                        5.340179227283033,
+                        -0.1
+                    ],
+                    [
+                        5.340179227283033,
+                        0.0
+                    ],
+                    [
+                        7.733752702167067,
+                        0.0
+                    ]
+                ],
+                [
+                    [
+                        7.733752702167067,
+                        0.0
+                    ],
+                    [
+                        5.340179227283033,
+                        0.0
+                    ],
+                    [
+                        5.340179227283033,
+                        0.1
+                    ],
+                    [
+                        7.733752702167067,
+                        0.1
+                    ]
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Window_Fixed_96x48",
+            "id": "window|wall|co-working space|south|3|1|1",
+            "room0": "co-working space",
+            "room1": "co-working space",
+            "wall0": "wall|co-working space|south|3|1",
+            "wall1": "wall|co-working space|south|3|1|exterior",
+            "holePolygon": [
+                {
+                    "x": 0.1090447426003677,
+                    "y": 1.2,
+                    "z": 0
+                },
+                {
+                    "x": 2.502618217484401,
+                    "y": 2.3773976802825927,
+                    "z": 0
+                }
+            ],
+            "assetPosition": {
+                "x": 1.3058314800423845,
+                "y": 1.7886988401412962,
+                "z": 0.0
+            },
+            "roomId": "co-working space",
+            "windowSegment": [
+                [
+                    5.224288590732966,
+                    0.0
+                ],
+                [
+                    2.8307151158489328,
+                    0.0
+                ]
+            ],
+            "windowBoxes": [
+                [
+                    [
+                        5.224288590732966,
+                        -0.1
+                    ],
+                    [
+                        2.8307151158489328,
+                        -0.1
+                    ],
+                    [
+                        2.8307151158489328,
+                        0.0
+                    ],
+                    [
+                        5.224288590732966,
+                        0.0
+                    ]
+                ],
+                [
+                    [
+                        5.224288590732966,
+                        0.0
+                    ],
+                    [
+                        2.8307151158489328,
+                        0.0
+                    ],
+                    [
+                        2.8307151158489328,
+                        0.1
+                    ],
+                    [
+                        5.224288590732966,
+                        0.1
+                    ]
+                ]
+            ],
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Window_Fixed_96x48",
+            "id": "window|wall|co-working space|south|3|2|2",
+            "room0": "co-working space",
+            "room1": "co-working space",
+            "wall0": "wall|co-working space|south|3|2",
+            "wall1": "wall|co-working space|south|3|2|exterior",
+            "holePolygon": [
+                {
+                    "x": 0.14668143676823522,
+                    "y": 1.2,
+                    "z": 0
+                },
+                {
+                    "x": 2.540254911652269,
+                    "y": 2.3773976802825927,
+                    "z": 0
+                }
+            ],
+            "assetPosition": {
+                "x": 1.343468174210252,
+                "y": 1.7886988401412962,
+                "z": 0.0
+            },
+            "roomId": "co-working space",
+            "windowSegment": [
+                [
+                    2.5199852298984315,
+                    0.0
+                ],
+                [
+                    0.12641175501439816,
+                    0.0
+                ]
+            ],
+            "windowBoxes": [
+                [
+                    [
+                        2.5199852298984315,
+                        -0.1
+                    ],
+                    [
+                        0.12641175501439816,
+                        -0.1
+                    ],
+                    [
+                        0.12641175501439816,
+                        0.0
+                    ],
+                    [
+                        2.5199852298984315,
+                        0.0
+                    ]
+                ],
+                [
+                    [
+                        2.5199852298984315,
+                        0.0
+                    ],
+                    [
+                        0.12641175501439816,
+                        0.0
+                    ],
+                    [
+                        0.12641175501439816,
+                        0.1
+                    ],
+                    [
+                        2.5199852298984315,
+                        0.1
+                    ]
+                ]
+            ],
+            "layer": "Procedural0"
+        }
+    ],
+    "query": "A co-working space featuring a large communal desk and multiple rolling chairs arranged in a grid pattern at the room\u2019s center.",
+    "raw_floor_plan": "co-working space | oak hardwood, satin | white drywall, smooth | [(0, 0), (0, 6), (8, 6), (8, 0)]",
+    "wall_height": 3.5,
+    "raw_doorway_plan": "exterior | co-working space | doorway | double | glass door with aluminum frame",
+    "room_pairs": [
+        [
+            "exterior",
+            "co-working space"
+        ]
+    ],
+    "open_room_pairs": [],
+    "open_walls": {
+        "segments": [],
+        "openWallBoxes": []
+    },
+    "raw_window_plan": "co-working space | south | fixed | (240, 120) | 3 | 120",
+    "object_selection_plan": {
+        "co-working space": {
+            "communal_desk": {
+                "description": "large wooden communal desk with multiple workstations",
+                "location": "floor",
+                "size": [
+                    600,
+                    150,
+                    75
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "laptop",
+                        "quantity": 6,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "desk lamp",
+                        "quantity": 6,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "notebook",
+                        "quantity": 8,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "pen holder",
+                        "quantity": 6,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "small plant",
+                        "quantity": 4,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "water bottle",
+                        "quantity": 6,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "mouse",
+                        "quantity": 6,
+                        "variance_type": "varied"
+                    }
+                ],
+                "object_name": "communal_desk"
+            },
+            "rolling_chair": {
+                "description": "ergonomic rolling chair with adjustable height",
+                "location": "floor",
+                "size": [
+                    60,
+                    60,
+                    120
+                ],
+                "quantity": 12,
+                "variance_type": "same",
+                "objects_on_top": [],
+                "object_name": "rolling_chair"
+            },
+            "bookshelf": {
+                "description": "tall wooden bookshelf",
+                "location": "floor",
+                "size": [
+                    120,
+                    40,
+                    200
+                ],
+                "quantity": 3,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "book",
+                        "quantity": 60,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "magazine",
+                        "quantity": 15,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "picture frame",
+                        "quantity": 6,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "decorative item",
+                        "quantity": 8,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "plant pot",
+                        "quantity": 3,
+                        "variance_type": "varied"
+                    }
+                ],
+                "object_name": "bookshelf"
+            },
+            "sofa": {
+                "description": "comfortable two-seater sofa",
+                "location": "floor",
+                "size": [
+                    180,
+                    90,
+                    90
+                ],
+                "quantity": 2,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "throw pillow",
+                        "quantity": 4,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "blanket",
+                        "quantity": 2,
+                        "variance_type": "same"
+                    }
+                ],
+                "object_name": "sofa"
+            },
+            "wall_shelf": {
+                "description": "modern style wall shelf",
+                "location": "wall",
+                "size": [
+                    120,
+                    30,
+                    50
+                ],
+                "quantity": 4,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "small plant",
+                        "quantity": 4,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "photo frame",
+                        "quantity": 4,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "book",
+                        "quantity": 12,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "vase",
+                        "quantity": 2,
+                        "variance_type": "varied"
+                    }
+                ],
+                "object_name": "wall_shelf"
+            },
+            "whiteboard": {
+                "description": "large mounted whiteboard for brainstorming",
+                "location": "wall",
+                "size": [
+                    200,
+                    100,
+                    5
+                ],
+                "quantity": 3,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "marker",
+                        "quantity": 15,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "eraser",
+                        "quantity": 3,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "magnet",
+                        "quantity": 20,
+                        "variance_type": "varied"
+                    }
+                ],
+                "object_name": "whiteboard"
+            },
+            "painting": {
+                "description": "framed abstract painting",
+                "location": "wall",
+                "size": [
+                    100,
+                    100,
+                    5
+                ],
+                "quantity": 3,
+                "variance_type": "varied",
+                "objects_on_top": [],
+                "object_name": "painting"
+            },
+            "coffee_table": {
+                "description": "modern coffee table with a glass top",
+                "location": "floor",
+                "size": [
+                    120,
+                    60,
+                    45
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "magazine",
+                        "quantity": 5,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "coffee mug",
+                        "quantity": 2,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "remote control",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "small plant",
+                        "quantity": 2,
+                        "variance_type": "varied"
+                    }
+                ],
+                "object_name": "coffee_table"
+            },
+            "cabinet": {
+                "description": "large wooden storage cabinet with multiple drawers",
+                "location": "floor",
+                "size": [
+                    150,
+                    50,
+                    100
+                ],
+                "quantity": 2,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "printer",
+                        "quantity": 2,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "scanner",
+                        "quantity": 1,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "office supplies",
+                        "quantity": 6,
+                        "variance_type": "varied"
+                    }
+                ],
+                "object_name": "cabinet"
+            },
+            "meeting_table": {
+                "description": "round meeting table",
+                "location": "floor",
+                "size": [
+                    180,
+                    180,
+                    75
+                ],
+                "quantity": 1,
+                "variance_type": "same",
+                "objects_on_top": [
+                    {
+                        "object_name": "notepad",
+                        "quantity": 6,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "pen",
+                        "quantity": 6,
+                        "variance_type": "same"
+                    },
+                    {
+                        "object_name": "laptop",
+                        "quantity": 2,
+                        "variance_type": "varied"
+                    },
+                    {
+                        "object_name": "water bottle",
+                        "quantity": 6,
+                        "variance_type": "varied"
+                    }
+                ],
+                "object_name": "meeting_table"
+            }
+        }
+    },
+    "selected_objects": {
+        "co-working space": {
+            "floor": [
+                [
+                    "communal_desk-0",
+                    "1c90baeb49fe4ba6816cfca4fc8ef330"
+                ],
+                [
+                    "rolling_chair-0",
+                    "RoboTHOR_office_chair_allak"
+                ],
+                [
+                    "rolling_chair-1",
+                    "RoboTHOR_office_chair_allak"
+                ],
+                [
+                    "rolling_chair-2",
+                    "RoboTHOR_office_chair_allak"
+                ],
+                [
+                    "rolling_chair-3",
+                    "RoboTHOR_office_chair_allak"
+                ],
+                [
+                    "rolling_chair-4",
+                    "RoboTHOR_office_chair_allak"
+                ],
+                [
+                    "rolling_chair-5",
+                    "RoboTHOR_office_chair_allak"
+                ],
+                [
+                    "rolling_chair-6",
+                    "RoboTHOR_office_chair_allak"
+                ],
+                [
+                    "rolling_chair-7",
+                    "RoboTHOR_office_chair_allak"
+                ],
+                [
+                    "rolling_chair-8",
+                    "RoboTHOR_office_chair_allak"
+                ],
+                [
+                    "rolling_chair-9",
+                    "RoboTHOR_office_chair_allak"
+                ],
+                [
+                    "bookshelf-0",
+                    "d7fb99d0aef54833a47e7b22b97b7dbe"
+                ],
+                [
+                    "bookshelf-1",
+                    "d7fb99d0aef54833a47e7b22b97b7dbe"
+                ],
+                [
+                    "bookshelf-2",
+                    "d7fb99d0aef54833a47e7b22b97b7dbe"
+                ],
+                [
+                    "sofa-0",
+                    "7bcfc93c338c46a880da7ef86eb30808"
+                ],
+                [
+                    "sofa-1",
+                    "7bcfc93c338c46a880da7ef86eb30808"
+                ],
+                [
+                    "coffee_table-0",
+                    "4ff4b1b213dd4aea87653c7c546abc18"
+                ],
+                [
+                    "cabinet-0",
+                    "58a15b68bee649c9bfc6d6ba2b4b2fcf"
+                ],
+                [
+                    "cabinet-1",
+                    "58a15b68bee649c9bfc6d6ba2b4b2fcf"
+                ],
+                [
+                    "meeting_table-0",
+                    "14fda9257bb2428daada126f345e3d04"
+                ]
+            ],
+            "wall": [
+                [
+                    "wall_shelf-0",
+                    "71ae0bf39a71440eb4f091579db394e2"
+                ],
+                [
+                    "wall_shelf-1",
+                    "71ae0bf39a71440eb4f091579db394e2"
+                ],
+                [
+                    "wall_shelf-2",
+                    "71ae0bf39a71440eb4f091579db394e2"
+                ],
+                [
+                    "wall_shelf-3",
+                    "71ae0bf39a71440eb4f091579db394e2"
+                ],
+                [
+                    "whiteboard-0",
+                    "2551f32ab50a48acbc615aa29bc45c39"
+                ],
+                [
+                    "whiteboard-1",
+                    "2551f32ab50a48acbc615aa29bc45c39"
+                ],
+                [
+                    "whiteboard-2",
+                    "2551f32ab50a48acbc615aa29bc45c39"
+                ],
+                [
+                    "painting-0",
+                    "b84dfc98d44d470ebff1ff6fbe36f57a"
+                ],
+                [
+                    "painting-1",
+                    "486bb167384240139c1b67fdb9f2c8e9"
+                ],
+                [
+                    "painting-2",
+                    "3196828539324d05a21ea29747076e83"
+                ]
+            ]
+        }
+    },
+    "floor_objects": [
+        {
+            "assetId": "1c90baeb49fe4ba6816cfca4fc8ef330",
+            "id": "communal_desk-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 1.6,
+                "y": 0.3343359485522815,
+                "z": 3.6
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    207.9064618167671,
+                    248.56985297750924
+                ],
+                [
+                    207.9064618167671,
+                    471.43014702249076
+                ],
+                [
+                    112.09353818323291,
+                    471.43014702249076
+                ],
+                [
+                    112.09353818323291,
+                    248.56985297750924
+                ],
+                [
+                    207.9064618167671,
+                    248.56985297750924
+                ]
+            ],
+            "object_name": "communal_desk-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "d7fb99d0aef54833a47e7b22b97b7dbe",
+            "id": "bookshelf-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 4.4,
+                "y": 1.0579212646038212,
+                "z": 0.22165193582437598
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    494.849540069886,
+                    -4.5
+                ],
+                [
+                    494.849540069886,
+                    48.83038716487519
+                ],
+                [
+                    385.150459930114,
+                    48.83038716487519
+                ],
+                [
+                    385.150459930114,
+                    -4.5
+                ]
+            ],
+            "object_name": "bookshelf-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "d7fb99d0aef54833a47e7b22b97b7dbe",
+            "id": "bookshelf-1 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 1.2,
+                "y": 1.0579212646038212,
+                "z": 0.22165193582437598
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    174.84954006988602,
+                    -4.5
+                ],
+                [
+                    174.84954006988602,
+                    48.83038716487519
+                ],
+                [
+                    65.15045993011398,
+                    48.83038716487519
+                ],
+                [
+                    65.15045993011398,
+                    -4.5
+                ]
+            ],
+            "object_name": "bookshelf-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "d7fb99d0aef54833a47e7b22b97b7dbe",
+            "id": "bookshelf-2 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 6.0,
+                "y": 1.0579212646038212,
+                "z": 0.22165193582437598
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    654.8495400698861,
+                    -4.5
+                ],
+                [
+                    654.8495400698861,
+                    48.83038716487519
+                ],
+                [
+                    545.1504599301139,
+                    48.83038716487519
+                ],
+                [
+                    545.1504599301139,
+                    -4.5
+                ]
+            ],
+            "object_name": "bookshelf-2",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "58a15b68bee649c9bfc6d6ba2b4b2fcf",
+            "id": "cabinet-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 0.8,
+                "y": 0.5986846311777734,
+                "z": 5.78486556038826
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    140.1101600316777,
+                    604.5
+                ],
+                [
+                    140.1101600316777,
+                    552.4731120776521
+                ],
+                [
+                    19.8898399683223,
+                    552.4731120776521
+                ],
+                [
+                    19.8898399683223,
+                    604.5
+                ]
+            ],
+            "object_name": "cabinet-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "58a15b68bee649c9bfc6d6ba2b4b2fcf",
+            "id": "cabinet-1 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 4.0,
+                "y": 0.5986846311777734,
+                "z": 5.78486556038826
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    460.1101600316777,
+                    604.5
+                ],
+                [
+                    460.1101600316777,
+                    552.4731120776521
+                ],
+                [
+                    339.8898399683223,
+                    552.4731120776521
+                ],
+                [
+                    339.8898399683223,
+                    604.5
+                ]
+            ],
+            "object_name": "cabinet-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "7bcfc93c338c46a880da7ef86eb30808",
+            "id": "sofa-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 7.504585079931299,
+                "y": 0.4583268668178836,
+                "z": 4.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    696.4170159862599,
+                    308.4754024421092
+                ],
+                [
+                    696.4170159862599,
+                    491.5245975578908
+                ],
+                [
+                    804.5,
+                    491.5245975578908
+                ],
+                [
+                    804.5,
+                    308.4754024421092
+                ]
+            ],
+            "object_name": "sofa-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "7bcfc93c338c46a880da7ef86eb30808",
+            "id": "sofa-1 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 7.504585079931299,
+                "y": 0.4583268668178836,
+                "z": 1.6
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    696.4170159862599,
+                    68.47540244210921
+                ],
+                [
+                    696.4170159862599,
+                    251.5245975578908
+                ],
+                [
+                    804.5,
+                    251.5245975578908
+                ],
+                [
+                    804.5,
+                    68.47540244210921
+                ]
+            ],
+            "object_name": "sofa-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "4ff4b1b213dd4aea87653c7c546abc18",
+            "id": "coffee_table-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 6.4,
+                "y": 0.22791478029638837,
+                "z": 4.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    680.5530633413657,
+                    336.65381679111897
+                ],
+                [
+                    680.5530633413657,
+                    463.34618320888103
+                ],
+                [
+                    599.4469366586343,
+                    463.34618320888103
+                ],
+                [
+                    599.4469366586343,
+                    336.65381679111897
+                ],
+                [
+                    680.5530633413657,
+                    336.65381679111897
+                ]
+            ],
+            "object_name": "coffee_table-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "14fda9257bb2428daada126f345e3d04",
+            "id": "meeting_table-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 2.8,
+                "y": 0.3993220899997383,
+                "z": 0.5817420013440683
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    368.66751092031967,
+                    -4.5
+                ],
+                [
+                    368.66751092031967,
+                    120.84840026881365
+                ],
+                [
+                    191.33248907968033,
+                    120.84840026881365
+                ],
+                [
+                    191.33248907968033,
+                    -4.5
+                ]
+            ],
+            "object_name": "meeting_table-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "RoboTHOR_office_chair_allak",
+            "id": "rolling_chair-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 1.2,
+                "y": 0.49566560983657837,
+                "z": 2.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    155.36980032920837,
+                    163.79465579986572
+                ],
+                [
+                    155.36980032920837,
+                    236.20534420013428
+                ],
+                [
+                    84.63019967079163,
+                    236.20534420013428
+                ],
+                [
+                    84.63019967079163,
+                    163.79465579986572
+                ],
+                [
+                    155.36980032920837,
+                    163.79465579986572
+                ]
+            ],
+            "object_name": "rolling_chair-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "RoboTHOR_office_chair_allak",
+            "id": "rolling_chair-1 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 2.0,
+                "y": 0.49566560983657837,
+                "z": 2.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    235.36980032920837,
+                    163.79465579986572
+                ],
+                [
+                    235.36980032920837,
+                    236.20534420013428
+                ],
+                [
+                    164.63019967079163,
+                    236.20534420013428
+                ],
+                [
+                    164.63019967079163,
+                    163.79465579986572
+                ],
+                [
+                    235.36980032920837,
+                    163.79465579986572
+                ]
+            ],
+            "object_name": "rolling_chair-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "RoboTHOR_office_chair_allak",
+            "id": "rolling_chair-2 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 2.8,
+                "y": 0.49566560983657837,
+                "z": 2.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    243.79465579986572,
+                    244.63019967079163
+                ],
+                [
+                    243.79465579986572,
+                    315.3698003292084
+                ],
+                [
+                    316.2053442001343,
+                    315.3698003292084
+                ],
+                [
+                    316.2053442001343,
+                    244.63019967079163
+                ],
+                [
+                    243.79465579986572,
+                    244.63019967079163
+                ]
+            ],
+            "object_name": "rolling_chair-2",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "RoboTHOR_office_chair_allak",
+            "id": "rolling_chair-3 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 2.8,
+                "y": 0.49566560983657837,
+                "z": 3.6
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    243.79465579986572,
+                    324.6301996707916
+                ],
+                [
+                    243.79465579986572,
+                    395.3698003292084
+                ],
+                [
+                    316.2053442001343,
+                    395.3698003292084
+                ],
+                [
+                    316.2053442001343,
+                    324.6301996707916
+                ],
+                [
+                    243.79465579986572,
+                    324.6301996707916
+                ]
+            ],
+            "object_name": "rolling_chair-3",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "RoboTHOR_office_chair_allak",
+            "id": "rolling_chair-4 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 2.8,
+                "y": 0.49566560983657837,
+                "z": 4.4
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    243.79465579986572,
+                    404.6301996707916
+                ],
+                [
+                    243.79465579986572,
+                    475.3698003292084
+                ],
+                [
+                    316.2053442001343,
+                    475.3698003292084
+                ],
+                [
+                    316.2053442001343,
+                    404.6301996707916
+                ],
+                [
+                    243.79465579986572,
+                    404.6301996707916
+                ]
+            ],
+            "object_name": "rolling_chair-4",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "RoboTHOR_office_chair_allak",
+            "id": "rolling_chair-5 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 2.0,
+                "y": 0.49566560983657837,
+                "z": 5.2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    235.36980032920837,
+                    556.2053442001343
+                ],
+                [
+                    235.36980032920837,
+                    483.7946557998657
+                ],
+                [
+                    164.63019967079163,
+                    483.7946557998657
+                ],
+                [
+                    164.63019967079163,
+                    556.2053442001343
+                ],
+                [
+                    235.36980032920837,
+                    556.2053442001343
+                ]
+            ],
+            "object_name": "rolling_chair-5",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "RoboTHOR_office_chair_allak",
+            "id": "rolling_chair-6 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 2.8,
+                "y": 0.49566560983657837,
+                "z": 5.2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    316.2053442001343,
+                    484.6301996707916
+                ],
+                [
+                    316.2053442001343,
+                    555.3698003292084
+                ],
+                [
+                    243.79465579986572,
+                    555.3698003292084
+                ],
+                [
+                    243.79465579986572,
+                    484.6301996707916
+                ],
+                [
+                    316.2053442001343,
+                    484.6301996707916
+                ]
+            ],
+            "object_name": "rolling_chair-6",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "RoboTHOR_office_chair_allak",
+            "id": "rolling_chair-7 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 0.3170534420013428,
+                "y": 0.49566560983657837,
+                "z": 4.4
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    67.91068840026855,
+                    404.6301996707916
+                ],
+                [
+                    67.91068840026855,
+                    475.3698003292084
+                ],
+                [
+                    -4.5,
+                    475.3698003292084
+                ],
+                [
+                    -4.5,
+                    404.6301996707916
+                ]
+            ],
+            "object_name": "rolling_chair-7",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "RoboTHOR_office_chair_allak",
+            "id": "rolling_chair-8 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 0.3170534420013428,
+                "y": 0.49566560983657837,
+                "z": 3.6
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    67.91068840026855,
+                    324.6301996707916
+                ],
+                [
+                    67.91068840026855,
+                    395.3698003292084
+                ],
+                [
+                    -4.5,
+                    395.3698003292084
+                ],
+                [
+                    -4.5,
+                    324.6301996707916
+                ]
+            ],
+            "object_name": "rolling_chair-8",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "RoboTHOR_office_chair_allak",
+            "id": "rolling_chair-9 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 0.3170534420013428,
+                "y": 0.49566560983657837,
+                "z": 2.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    67.91068840026855,
+                    244.63019967079163
+                ],
+                [
+                    67.91068840026855,
+                    315.3698003292084
+                ],
+                [
+                    -4.5,
+                    315.3698003292084
+                ],
+                [
+                    -4.5,
+                    244.63019967079163
+                ]
+            ],
+            "object_name": "rolling_chair-9",
+            "layer": "Procedural0"
+        }
+    ],
+    "wall_objects": [
+        {
+            "assetId": "b84dfc98d44d470ebff1ff6fbe36f57a",
+            "id": "painting-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 7.956455937409774,
+                "y": 2.041619511693716,
+                "z": 4.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    800.0,
+                    347.7000654116273
+                ],
+                [
+                    800.0,
+                    452.2999345883727
+                ],
+                [
+                    793.2911874819547,
+                    452.2999345883727
+                ],
+                [
+                    793.2911874819547,
+                    347.7000654116273
+                ],
+                [
+                    800.0,
+                    347.7000654116273
+                ]
+            ],
+            "object_name": "painting-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "486bb167384240139c1b67fdb9f2c8e9",
+            "id": "painting-1 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 7.938070122262196,
+                "y": 2.2543094085741218,
+                "z": 1.6000000000000005
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    800.0,
+                    107.03148298965394
+                ],
+                [
+                    800.0,
+                    212.96851701034618
+                ],
+                [
+                    789.614024452439,
+                    212.96851701034618
+                ],
+                [
+                    789.614024452439,
+                    107.03148298965394
+                ],
+                [
+                    800.0,
+                    107.03148298965394
+                ]
+            ],
+            "object_name": "painting-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "3196828539324d05a21ea29747076e83",
+            "id": "painting-2 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 7.975453430563212,
+                "y": 2.0538606107234956,
+                "z": 5.2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    800.0,
+                    482.1782720088959
+                ],
+                [
+                    800.0,
+                    557.8217279911041
+                ],
+                [
+                    797.0906861126423,
+                    557.8217279911041
+                ],
+                [
+                    797.0906861126423,
+                    482.1782720088959
+                ],
+                [
+                    800.0,
+                    482.1782720088959
+                ]
+            ],
+            "object_name": "painting-2",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "2551f32ab50a48acbc615aa29bc45c39",
+            "id": "whiteboard-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 0.0792889575506527,
+                "y": 1.8289280426705075,
+                "z": 3.6
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    13.857791510130541,
+                    316.8277951016665
+                ],
+                [
+                    13.857791510130541,
+                    403.1722048983335
+                ],
+                [
+                    0.0,
+                    403.1722048983335
+                ],
+                [
+                    0.0,
+                    316.8277951016665
+                ],
+                [
+                    13.857791510130541,
+                    316.8277951016665
+                ]
+            ],
+            "object_name": "whiteboard-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "2551f32ab50a48acbc615aa29bc45c39",
+            "id": "whiteboard-1 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 0.0792889575506527,
+                "y": 1.8289280426705075,
+                "z": 0.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    13.857791510130541,
+                    36.8277951016665
+                ],
+                [
+                    13.857791510130541,
+                    123.17220489833349
+                ],
+                [
+                    0.0,
+                    123.17220489833349
+                ],
+                [
+                    0.0,
+                    36.8277951016665
+                ],
+                [
+                    13.857791510130541,
+                    36.8277951016665
+                ]
+            ],
+            "object_name": "whiteboard-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "2551f32ab50a48acbc615aa29bc45c39",
+            "id": "whiteboard-2 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 7.920711042449348,
+                "y": 1.8289280426705075,
+                "z": 2.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 270,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    800.0,
+                    236.8277951016665
+                ],
+                [
+                    800.0,
+                    323.1722048983335
+                ],
+                [
+                    786.1422084898694,
+                    323.1722048983335
+                ],
+                [
+                    786.1422084898694,
+                    236.8277951016665
+                ],
+                [
+                    800.0,
+                    236.8277951016665
+                ]
+            ],
+            "object_name": "whiteboard-2",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "71ae0bf39a71440eb4f091579db394e2",
+            "id": "wall_shelf-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 0.8,
+                "y": 2.388493262706919,
+                "z": 5.774826548175609
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    153.51729210386884,
+                    556.9653096351218
+                ],
+                [
+                    153.51729210386884,
+                    600.0
+                ],
+                [
+                    6.482707896131146,
+                    600.0
+                ],
+                [
+                    6.482707896131146,
+                    556.9653096351218
+                ],
+                [
+                    153.51729210386884,
+                    556.9653096351218
+                ]
+            ],
+            "object_name": "wall_shelf-0",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "71ae0bf39a71440eb4f091579db394e2",
+            "id": "wall_shelf-1 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 4.0,
+                "y": 2.388493262706919,
+                "z": 5.774826548175609
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    473.51729210386884,
+                    556.9653096351218
+                ],
+                [
+                    473.51729210386884,
+                    600.0
+                ],
+                [
+                    326.48270789613116,
+                    600.0
+                ],
+                [
+                    326.48270789613116,
+                    556.9653096351218
+                ],
+                [
+                    473.51729210386884,
+                    556.9653096351218
+                ]
+            ],
+            "object_name": "wall_shelf-1",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "71ae0bf39a71440eb4f091579db394e2",
+            "id": "wall_shelf-2 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 0.22517345182439114,
+                "y": 2.388493262706919,
+                "z": 2.0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    43.03469036487822,
+                    126.48270789613115
+                ],
+                [
+                    43.03469036487822,
+                    273.51729210386884
+                ],
+                [
+                    0.0,
+                    273.51729210386884
+                ],
+                [
+                    0.0,
+                    126.48270789613115
+                ],
+                [
+                    43.03469036487822,
+                    126.48270789613115
+                ]
+            ],
+            "object_name": "wall_shelf-2",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "71ae0bf39a71440eb4f091579db394e2",
+            "id": "wall_shelf-3 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 2.4,
+                "y": 2.388493262706919,
+                "z": 5.774826548175609
+            },
+            "rotation": {
+                "x": 0,
+                "y": 180,
+                "z": 0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "vertices": [
+                [
+                    313.51729210386884,
+                    556.9653096351218
+                ],
+                [
+                    313.51729210386884,
+                    600.0
+                ],
+                [
+                    166.48270789613116,
+                    600.0
+                ],
+                [
+                    166.48270789613116,
+                    556.9653096351218
+                ],
+                [
+                    313.51729210386884,
+                    556.9653096351218
+                ]
+            ],
+            "object_name": "wall_shelf-3",
+            "layer": "Procedural0"
+        }
+    ],
+    "small_objects": [
+        {
+            "assetId": "1eefa14f8d9547938a290617fda52959",
+            "id": "desk lamp-3|communal_desk-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 1.8518035411834717,
+                "y": 0.745900095635673,
+                "z": 3.3398921489715576
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "152e0c6ae77e446f8f31f10d1d487aff",
+            "id": "office supplies-1|cabinet-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 1.0510258674621582,
+                "y": 1.3105000020023958,
+                "z": 5.8549346923828125
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "120acbec47594bb1b0e51fbb5f9eae62",
+            "id": "office supplies-4|cabinet-1 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 3.7495369911193848,
+                "y": 1.310755942966911,
+                "z": 5.854926586151123
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "152e0c6ae77e446f8f31f10d1d487aff",
+            "id": "office supplies-3|cabinet-1 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 1.0510258674621582,
+                "y": 1.3105000020023958,
+                "z": 5.8549346923828125
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "828c7ba1bdaa4d69b8d6cbc7b080c007",
+            "id": "small plant-0|coffee_table-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 6.236594200134277,
+                "y": 0.607906622407543,
+                "z": 3.976487398147583
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "Laptop_22",
+            "id": "laptop-0|meeting_table-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 2.3919854164123535,
+                "y": 0.9709829518795013,
+                "z": 0.5834701657295227
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "828c7ba1bdaa4d69b8d6cbc7b080c007",
+            "id": "small plant-1|wall_shelf-3 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 6.236594200134277,
+                "y": 0.607906622407543,
+                "z": 3.976487398147583
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "828c7ba1bdaa4d69b8d6cbc7b080c007",
+            "id": "small plant-2|wall_shelf-2 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 6.236594200134277,
+                "y": 0.607906622407543,
+                "z": 3.976487398147583
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "16e01e5eb3d64510a978af91e3b6c033",
+            "id": "photo frame-0|wall_shelf-1 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 4.17913818359375,
+                "y": 3.0255535657519386,
+                "z": 5.783127784729004
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "828c7ba1bdaa4d69b8d6cbc7b080c007",
+            "id": "small plant-1|wall_shelf-1 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 6.236594200134277,
+                "y": 0.607906622407543,
+                "z": 3.976487398147583
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "16e01e5eb3d64510a978af91e3b6c033",
+            "id": "photo frame-1|wall_shelf-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 0.44167232513427734,
+                "y": 3.031172137987046,
+                "z": 5.684474945068359
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "layer": "Procedural0"
+        },
+        {
+            "assetId": "828c7ba1bdaa4d69b8d6cbc7b080c007",
+            "id": "small plant-1|wall_shelf-0 (co-working space)",
+            "kinematic": true,
+            "position": {
+                "x": 6.236594200134277,
+                "y": 0.607906622407543,
+                "z": 3.976487398147583
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": -0.0
+            },
+            "material": null,
+            "roomId": "co-working space",
+            "layer": "Procedural0"
+        }
+    ],
+    "receptacle2small_objects": {
+        "communal_desk-0 (co-working space)": [
+            [
+                "desk lamp-3",
+                "1eefa14f8d9547938a290617fda52959",
+                0.4932858800136201
+            ],
+            [
+                "laptop-2",
+                "Laptop_27",
+                0.4229400157928467
+            ],
+            [
+                "laptop-4",
+                "Laptop_26",
+                0.4229400157928467
+            ],
+            [
+                "laptop-3",
+                "Laptop_29",
+                0.3859327733516693
+            ],
+            [
+                "laptop-1",
+                "Laptop_22",
+                0.35877665877342224
+            ],
+            [
+                "desk lamp-1",
+                "03709c84297a42dba20025bfcbb45ff9",
+                0.3527490058593348
+            ],
+            [
+                "laptop-0",
+                "Laptop_21",
+                0.33753782510757446
+            ],
+            [
+                "desk lamp-0",
+                "08dda93b6b1e4f5c8ab0e407a85a58e7",
+                0.33351794523225653
+            ],
+            [
+                "desk lamp-2",
+                "b37a3d92d35445f3a8dba72a0b7c708a",
+                0.32316921525338127
+            ],
+            [
+                "desk lamp-4",
+                "89991057aba34433a77425141b3ba35e",
+                0.2810398867942263
+            ],
+            [
+                "notebook-3",
+                "158b8078af03494b9e4f51664b7848fc",
+                0.23333894758707005
+            ],
+            [
+                "notebook-0",
+                "3ac87021b85f45e391ab92577850b128",
+                0.16954875787366247
+            ],
+            [
+                "notebook-2",
+                "32a4f80a37104b8480f5679f08816d59",
+                0.16626766624758668
+            ],
+            [
+                "notebook-4",
+                "cee4802cafe3483c9d72f27d6f3e06d1",
+                0.16488712810932246
+            ],
+            [
+                "notebook-1",
+                "2a37a4b61b8c4aad9e4eb78a689913a4",
+                0.11808389431571512
+            ]
+        ],
+        "bookshelf-0 (co-working space)": [
+            [
+                "picture frame-4",
+                "c01c46fe1211405aa9314ad373af5eae",
+                0.8462563753128052
+            ],
+            [
+                "picture frame-1",
+                "16e01e5eb3d64510a978af91e3b6c033",
+                0.49666258467345686
+            ],
+            [
+                "picture frame-0",
+                "8351b90974164794afcc7d59f7366ed7",
+                0.42384722166591215
+            ],
+            [
+                "book-1",
+                "1e14919815ef4d8191886df06fa3cbc5",
+                0.30765903276903445
+            ],
+            [
+                "book-0",
+                "158b8078af03494b9e4f51664b7848fc",
+                0.23333894758707005
+            ],
+            [
+                "magazine-4",
+                "84683791c7e74992b8f2baeb52595de6",
+                0.18705125601682793
+            ],
+            [
+                "book-2",
+                "5e13fdd8c8f1463cbe9c3edef14b1eb9",
+                0.1815402499011785
+            ],
+            [
+                "book-4",
+                "ea10f71087af43e69c1c63c4146a81f2",
+                0.17653046807882006
+            ],
+            [
+                "magazine-3",
+                "a8ebc348e10745d49ed878908435caea",
+                0.16182261622377805
+            ],
+            [
+                "picture frame-2",
+                "cf70e0d9df7944b3941a895aa8df7c9e",
+                0.16157078817486764
+            ],
+            [
+                "book-3",
+                "67feeed5b4a04ee8b45bee4c4c46c22e",
+                0.15692250419295195
+            ],
+            [
+                "picture frame-3",
+                "1c03f7b3816242358316e8b135110d58",
+                0.15515466810003847
+            ],
+            [
+                "magazine-0",
+                "512f63eacd9d4068816d0c6280ae48d9",
+                0.14269387008797407
+            ],
+            [
+                "magazine-2",
+                "4c7a2a4c52dc40e69506ad0832715dc3",
+                0.12102674361732271
+            ],
+            [
+                "magazine-1",
+                "21d8c15bddc8434e89d7d8d7e67092c9",
+                0.11770956381292887
+            ]
+        ],
+        "bookshelf-1 (co-working space)": [
+            [
+                "picture frame-4",
+                "c01c46fe1211405aa9314ad373af5eae",
+                0.8462563753128052
+            ],
+            [
+                "picture frame-3",
+                "16e01e5eb3d64510a978af91e3b6c033",
+                0.49666258467345686
+            ],
+            [
+                "picture frame-2",
+                "8351b90974164794afcc7d59f7366ed7",
+                0.42384722166591215
+            ],
+            [
+                "book-1",
+                "1e14919815ef4d8191886df06fa3cbc5",
+                0.30765903276903445
+            ],
+            [
+                "book-4",
+                "158b8078af03494b9e4f51664b7848fc",
+                0.23333894758707005
+            ],
+            [
+                "magazine-2",
+                "84683791c7e74992b8f2baeb52595de6",
+                0.18705125601682793
+            ],
+            [
+                "book-3",
+                "5e13fdd8c8f1463cbe9c3edef14b1eb9",
+                0.1815402499011785
+            ],
+            [
+                "book-2",
+                "ea10f71087af43e69c1c63c4146a81f2",
+                0.17653046807882006
+            ],
+            [
+                "magazine-3",
+                "a8ebc348e10745d49ed878908435caea",
+                0.16182261622377805
+            ],
+            [
+                "picture frame-0",
+                "cf70e0d9df7944b3941a895aa8df7c9e",
+                0.16157078817486764
+            ],
+            [
+                "book-0",
+                "67feeed5b4a04ee8b45bee4c4c46c22e",
+                0.15692250419295195
+            ],
+            [
+                "picture frame-1",
+                "1c03f7b3816242358316e8b135110d58",
+                0.15515466810003847
+            ],
+            [
+                "magazine-0",
+                "512f63eacd9d4068816d0c6280ae48d9",
+                0.14269387008797407
+            ],
+            [
+                "magazine-4",
+                "4c7a2a4c52dc40e69506ad0832715dc3",
+                0.12102674361732271
+            ],
+            [
+                "magazine-1",
+                "21d8c15bddc8434e89d7d8d7e67092c9",
+                0.11770956381292887
+            ]
+        ],
+        "cabinet-0 (co-working space)": [
+            [
+                "office supplies-3",
+                "120acbec47594bb1b0e51fbb5f9eae62",
+                0.29284107681536664
+            ],
+            [
+                "printer-0",
+                "9a87c4971eed4fd5aa6e1e3441cd1e70",
+                0.27661488738817147
+            ],
+            [
+                "office supplies-1",
+                "152e0c6ae77e446f8f31f10d1d487aff",
+                0.2562514185133953
+            ],
+            [
+                "office supplies-4",
+                "101a2f98db844fca9d43e1c16bf5dd64",
+                0.2208294662224929
+            ],
+            [
+                "printer-1",
+                "d6bb800fcddf45b4b17e5498fbba4a34",
+                0.17402793567248245
+            ],
+            [
+                "office supplies-2",
+                "a29fc7fea63c4689bf2b9b6f7b50eb44",
+                0.0803228211071756
+            ],
+            [
+                "office supplies-0",
+                "54e44c23db6c4b7caeeb20951b8e18ed",
+                0.07274287235322027
+            ],
+            [
+                "scanner-0",
+                "41e31980b8834882874c5a8e746732c9",
+                0.06326051118734242
+            ]
+        ],
+        "cabinet-1 (co-working space)": [
+            [
+                "office supplies-4",
+                "120acbec47594bb1b0e51fbb5f9eae62",
+                0.29284107681536664
+            ],
+            [
+                "printer-0",
+                "9a87c4971eed4fd5aa6e1e3441cd1e70",
+                0.27661488738817147
+            ],
+            [
+                "office supplies-3",
+                "152e0c6ae77e446f8f31f10d1d487aff",
+                0.2562514185133953
+            ],
+            [
+                "office supplies-2",
+                "101a2f98db844fca9d43e1c16bf5dd64",
+                0.2208294662224929
+            ],
+            [
+                "scanner-0",
+                "5c80552ee74449a88000da76b57522a5",
+                0.18703940841886735
+            ],
+            [
+                "printer-1",
+                "d6bb800fcddf45b4b17e5498fbba4a34",
+                0.17402793567248245
+            ],
+            [
+                "office supplies-0",
+                "a29fc7fea63c4689bf2b9b6f7b50eb44",
+                0.0803228211071756
+            ],
+            [
+                "office supplies-1",
+                "54e44c23db6c4b7caeeb20951b8e18ed",
+                0.07274287235322027
+            ]
+        ],
+        "sofa-0 (co-working space)": [
+            [
+                "blanket-0",
+                "ed9075c7842c4fdaa9035fbf2eef551b",
+                0.7142505079978458
+            ],
+            [
+                "blanket-1",
+                "ed9075c7842c4fdaa9035fbf2eef551b",
+                0.7142505079978458
+            ],
+            [
+                "throw pillow-0",
+                "1ae3077f108d4775afab873f99b2c44b",
+                0.6837925910949707
+            ],
+            [
+                "throw pillow-2",
+                "27b8b5153257443d8f0a1e608f4319d1",
+                0.4755768749026715
+            ],
+            [
+                "throw pillow-3",
+                "7398ee7f97c748a4ac0c37f4716dda27",
+                0.4253438662132928
+            ],
+            [
+                "throw pillow-1",
+                "8086d117922c4fbd8eb66f20111a63d3",
+                0.38453150029459404
+            ]
+        ],
+        "sofa-1 (co-working space)": [
+            [
+                "throw pillow-3",
+                "1ae3077f108d4775afab873f99b2c44b",
+                0.6837925910949707
+            ],
+            [
+                "throw pillow-2",
+                "7398ee7f97c748a4ac0c37f4716dda27",
+                0.4253438662132928
+            ],
+            [
+                "throw pillow-1",
+                "8086d117922c4fbd8eb66f20111a63d3",
+                0.38453150029459404
+            ],
+            [
+                "throw pillow-0",
+                "3e5f382200c9449cb41120a2fc977372",
+                0.3813649341090001
+            ],
+            [
+                "blanket-0",
+                "Cloth_11",
+                0.21438860893249512
+            ],
+            [
+                "blanket-1",
+                "Cloth_11",
+                0.21438860893249512
+            ]
+        ],
+        "coffee_table-0 (co-working space)": [
+            [
+                "small plant-0",
+                "828c7ba1bdaa4d69b8d6cbc7b080c007",
+                0.30044516877303995
+            ],
+            [
+                "small plant-1",
+                "e6b33c4c7e1c461db5d5c568b9dfca71",
+                0.2317523122414439
+            ],
+            [
+                "magazine-0",
+                "84683791c7e74992b8f2baeb52595de6",
+                0.18705125601682793
+            ],
+            [
+                "magazine-4",
+                "a8ebc348e10745d49ed878908435caea",
+                0.16182261622377805
+            ],
+            [
+                "magazine-1",
+                "512f63eacd9d4068816d0c6280ae48d9",
+                0.14269387008797407
+            ],
+            [
+                "coffee mug-1",
+                "a30aab65d235438bbfc6699faaea762d",
+                0.1272823277350561
+            ],
+            [
+                "magazine-3",
+                "4c7a2a4c52dc40e69506ad0832715dc3",
+                0.12102674361732271
+            ],
+            [
+                "magazine-2",
+                "21d8c15bddc8434e89d7d8d7e67092c9",
+                0.11770956381292887
+            ],
+            [
+                "coffee mug-0",
+                "b1170373ea834d74bbf2a15bf1c5a8e3",
+                0.11494629102178418
+            ],
+            [
+                "remote control-0",
+                "5a55cb61df1f4a5da29a985b2dd96105",
+                0.048552631486741646
+            ]
+        ],
+        "meeting_table-0 (co-working space)": [
+            [
+                "laptop-0",
+                "Laptop_22",
+                0.35877665877342224
+            ],
+            [
+                "laptop-1",
+                "Laptop_21",
+                0.33753782510757446
+            ],
+            [
+                "notepad-3",
+                "4c32fc04e7a3413b96e56d48618ca484",
+                0.32885956759047175
+            ],
+            [
+                "notepad-2",
+                "32a4f80a37104b8480f5679f08816d59",
+                0.16626766624758668
+            ],
+            [
+                "notepad-0",
+                "cee4802cafe3483c9d72f27d6f3e06d1",
+                0.16488712810932246
+            ],
+            [
+                "notepad-1",
+                "2a37a4b61b8c4aad9e4eb78a689913a4",
+                0.11808389431571512
+            ],
+            [
+                "pen-0",
+                "18e3dd35bbad47748a0bd546d520e83d",
+                0.10742177373634423
+            ],
+            [
+                "pen-1",
+                "18e3dd35bbad47748a0bd546d520e83d",
+                0.10742177373634423
+            ],
+            [
+                "pen-2",
+                "18e3dd35bbad47748a0bd546d520e83d",
+                0.10742177373634423
+            ],
+            [
+                "pen-3",
+                "18e3dd35bbad47748a0bd546d520e83d",
+                0.10742177373634423
+            ],
+            [
+                "pen-4",
+                "18e3dd35bbad47748a0bd546d520e83d",
+                0.10742177373634423
+            ],
+            [
+                "water bottle-1",
+                "6fc33cbd0cf54e0d9dfecd52da1b2418",
+                0.08647932262324626
+            ],
+            [
+                "water bottle-2",
+                "affd4ebf5fd143d98c1b7c76eedafff3",
+                0.08055290515362246
+            ],
+            [
+                "notepad-4",
+                "3a07a6972f154177a332154770afb61b",
+                0.07124129633108775
+            ],
+            [
+                "water bottle-0",
+                "acc232eb79fc438b963823b6047cd919",
+                0.06757114534257216
+            ]
+        ],
+        "bookshelf-2 (co-working space)": [
+            [
+                "picture frame-0",
+                "c01c46fe1211405aa9314ad373af5eae",
+                0.8462563753128052
+            ],
+            [
+                "picture frame-4",
+                "16e01e5eb3d64510a978af91e3b6c033",
+                0.49666258467345686
+            ],
+            [
+                "picture frame-3",
+                "8351b90974164794afcc7d59f7366ed7",
+                0.42384722166591215
+            ],
+            [
+                "book-0",
+                "1e14919815ef4d8191886df06fa3cbc5",
+                0.30765903276903445
+            ],
+            [
+                "book-1",
+                "158b8078af03494b9e4f51664b7848fc",
+                0.23333894758707005
+            ],
+            [
+                "magazine-0",
+                "84683791c7e74992b8f2baeb52595de6",
+                0.18705125601682793
+            ],
+            [
+                "book-3",
+                "5e13fdd8c8f1463cbe9c3edef14b1eb9",
+                0.1815402499011785
+            ],
+            [
+                "book-4",
+                "ea10f71087af43e69c1c63c4146a81f2",
+                0.17653046807882006
+            ],
+            [
+                "magazine-2",
+                "a8ebc348e10745d49ed878908435caea",
+                0.16182261622377805
+            ],
+            [
+                "picture frame-2",
+                "cf70e0d9df7944b3941a895aa8df7c9e",
+                0.16157078817486764
+            ],
+            [
+                "book-2",
+                "67feeed5b4a04ee8b45bee4c4c46c22e",
+                0.15692250419295195
+            ],
+            [
+                "picture frame-1",
+                "1c03f7b3816242358316e8b135110d58",
+                0.15515466810003847
+            ],
+            [
+                "magazine-1",
+                "512f63eacd9d4068816d0c6280ae48d9",
+                0.14269387008797407
+            ],
+            [
+                "magazine-4",
+                "4c7a2a4c52dc40e69506ad0832715dc3",
+                0.12102674361732271
+            ],
+            [
+                "magazine-3",
+                "21d8c15bddc8434e89d7d8d7e67092c9",
+                0.11770956381292887
+            ]
+        ],
+        "wall_shelf-3 (co-working space)": [
+            [
+                "photo frame-1",
+                "a57790ed03fc4175a641649aca54de07",
+                0.7910984838788564
+            ],
+            [
+                "photo frame-3",
+                "16e01e5eb3d64510a978af91e3b6c033",
+                0.49666258467345686
+            ],
+            [
+                "photo frame-2",
+                "8351b90974164794afcc7d59f7366ed7",
+                0.42384722166591215
+            ],
+            [
+                "book-0",
+                "1e14919815ef4d8191886df06fa3cbc5",
+                0.30765903276903445
+            ],
+            [
+                "small plant-1",
+                "828c7ba1bdaa4d69b8d6cbc7b080c007",
+                0.30044516877303995
+            ],
+            [
+                "book-2",
+                "158b8078af03494b9e4f51664b7848fc",
+                0.23333894758707005
+            ],
+            [
+                "small plant-3",
+                "e6b33c4c7e1c461db5d5c568b9dfca71",
+                0.2317523122414439
+            ],
+            [
+                "vase-0",
+                "8ef2078713b64532819fc7749fefc349",
+                0.20263962033722133
+            ],
+            [
+                "small plant-0",
+                "24e249673696400ca61b5f4e0a0fabde",
+                0.1975936905403381
+            ],
+            [
+                "vase-1",
+                "72a54e1e37c54ff0a9c843db6835d694",
+                0.1878003843806007
+            ],
+            [
+                "book-4",
+                "5e13fdd8c8f1463cbe9c3edef14b1eb9",
+                0.1815402499011785
+            ],
+            [
+                "book-3",
+                "ea10f71087af43e69c1c63c4146a81f2",
+                0.17653046807882006
+            ],
+            [
+                "photo frame-0",
+                "cf70e0d9df7944b3941a895aa8df7c9e",
+                0.16157078817486764
+            ],
+            [
+                "book-1",
+                "67feeed5b4a04ee8b45bee4c4c46c22e",
+                0.15692250419295195
+            ],
+            [
+                "small plant-2",
+                "3bb759502c374ccb92e2d2286491b01a",
+                0.12074610373873713
+            ]
+        ],
+        "wall_shelf-2 (co-working space)": [
+            [
+                "photo frame-3",
+                "a57790ed03fc4175a641649aca54de07",
+                0.7910984838788564
+            ],
+            [
+                "photo frame-0",
+                "8351b90974164794afcc7d59f7366ed7",
+                0.42384722166591215
+            ],
+            [
+                "book-0",
+                "1e14919815ef4d8191886df06fa3cbc5",
+                0.30765903276903445
+            ],
+            [
+                "small plant-2",
+                "828c7ba1bdaa4d69b8d6cbc7b080c007",
+                0.30044516877303995
+            ],
+            [
+                "vase-1",
+                "2ed0b726cf104ae594b20956b42c1782",
+                0.23752697392513875
+            ],
+            [
+                "book-4",
+                "158b8078af03494b9e4f51664b7848fc",
+                0.23333894758707005
+            ],
+            [
+                "small plant-3",
+                "e6b33c4c7e1c461db5d5c568b9dfca71",
+                0.2317523122414439
+            ],
+            [
+                "vase-0",
+                "8ef2078713b64532819fc7749fefc349",
+                0.20263962033722133
+            ],
+            [
+                "small plant-1",
+                "24e249673696400ca61b5f4e0a0fabde",
+                0.1975936905403381
+            ],
+            [
+                "book-2",
+                "5e13fdd8c8f1463cbe9c3edef14b1eb9",
+                0.1815402499011785
+            ],
+            [
+                "book-3",
+                "ea10f71087af43e69c1c63c4146a81f2",
+                0.17653046807882006
+            ],
+            [
+                "photo frame-1",
+                "cf70e0d9df7944b3941a895aa8df7c9e",
+                0.16157078817486764
+            ],
+            [
+                "book-1",
+                "67feeed5b4a04ee8b45bee4c4c46c22e",
+                0.15692250419295195
+            ],
+            [
+                "photo frame-2",
+                "1c03f7b3816242358316e8b135110d58",
+                0.15515466810003847
+            ],
+            [
+                "small plant-0",
+                "3bb759502c374ccb92e2d2286491b01a",
+                0.12074610373873713
+            ]
+        ],
+        "wall_shelf-1 (co-working space)": [
+            [
+                "photo frame-0",
+                "16e01e5eb3d64510a978af91e3b6c033",
+                0.49666258467345686
+            ],
+            [
+                "photo frame-1",
+                "8351b90974164794afcc7d59f7366ed7",
+                0.42384722166591215
+            ],
+            [
+                "small plant-0",
+                "4e4e9400cb95484e874daf37fa1a3f18",
+                0.3679383853902001
+            ],
+            [
+                "book-4",
+                "1e14919815ef4d8191886df06fa3cbc5",
+                0.30765903276903445
+            ],
+            [
+                "small plant-1",
+                "828c7ba1bdaa4d69b8d6cbc7b080c007",
+                0.30044516877303995
+            ],
+            [
+                "vase-0",
+                "2ed0b726cf104ae594b20956b42c1782",
+                0.23752697392513875
+            ],
+            [
+                "book-0",
+                "158b8078af03494b9e4f51664b7848fc",
+                0.23333894758707005
+            ],
+            [
+                "vase-1",
+                "8ef2078713b64532819fc7749fefc349",
+                0.20263962033722133
+            ],
+            [
+                "small plant-3",
+                "24e249673696400ca61b5f4e0a0fabde",
+                0.1975936905403381
+            ],
+            [
+                "book-2",
+                "5e13fdd8c8f1463cbe9c3edef14b1eb9",
+                0.1815402499011785
+            ],
+            [
+                "book-3",
+                "ea10f71087af43e69c1c63c4146a81f2",
+                0.17653046807882006
+            ],
+            [
+                "photo frame-2",
+                "cf70e0d9df7944b3941a895aa8df7c9e",
+                0.16157078817486764
+            ],
+            [
+                "book-1",
+                "67feeed5b4a04ee8b45bee4c4c46c22e",
+                0.15692250419295195
+            ],
+            [
+                "photo frame-3",
+                "1c03f7b3816242358316e8b135110d58",
+                0.15515466810003847
+            ],
+            [
+                "small plant-2",
+                "3bb759502c374ccb92e2d2286491b01a",
+                0.12074610373873713
+            ]
+        ],
+        "wall_shelf-0 (co-working space)": [
+            [
+                "photo frame-1",
+                "16e01e5eb3d64510a978af91e3b6c033",
+                0.49666258467345686
+            ],
+            [
+                "photo frame-0",
+                "8351b90974164794afcc7d59f7366ed7",
+                0.42384722166591215
+            ],
+            [
+                "small plant-2",
+                "4e4e9400cb95484e874daf37fa1a3f18",
+                0.3679383853902001
+            ],
+            [
+                "book-1",
+                "1e14919815ef4d8191886df06fa3cbc5",
+                0.30765903276903445
+            ],
+            [
+                "small plant-1",
+                "828c7ba1bdaa4d69b8d6cbc7b080c007",
+                0.30044516877303995
+            ],
+            [
+                "vase-1",
+                "2ed0b726cf104ae594b20956b42c1782",
+                0.23752697392513875
+            ],
+            [
+                "book-2",
+                "158b8078af03494b9e4f51664b7848fc",
+                0.23333894758707005
+            ],
+            [
+                "vase-0",
+                "8ef2078713b64532819fc7749fefc349",
+                0.20263962033722133
+            ],
+            [
+                "small plant-0",
+                "24e249673696400ca61b5f4e0a0fabde",
+                0.1975936905403381
+            ],
+            [
+                "book-0",
+                "5e13fdd8c8f1463cbe9c3edef14b1eb9",
+                0.1815402499011785
+            ],
+            [
+                "book-4",
+                "ea10f71087af43e69c1c63c4146a81f2",
+                0.17653046807882006
+            ],
+            [
+                "photo frame-3",
+                "cf70e0d9df7944b3941a895aa8df7c9e",
+                0.16157078817486764
+            ],
+            [
+                "book-3",
+                "67feeed5b4a04ee8b45bee4c4c46c22e",
+                0.15692250419295195
+            ],
+            [
+                "photo frame-2",
+                "1c03f7b3816242358316e8b135110d58",
+                0.15515466810003847
+            ],
+            [
+                "small plant-3",
+                "3bb759502c374ccb92e2d2286491b01a",
+                0.12074610373873713
+            ]
+        ],
+        "whiteboard-2 (co-working space)": [
+            [
+                "magnet-0",
+                "203d2234abaf4e33851d2ab311015da7",
+                0.24679526832805154
+            ],
+            [
+                "magnet-4",
+                "df264f847a474efeb3fa6c9d9cacee63",
+                0.1798417585159382
+            ],
+            [
+                "magnet-1",
+                "0762cb8db9c24337b6e946c3e03b6bcd",
+                0.16394827636670883
+            ],
+            [
+                "magnet-3",
+                "0a07ca72a4204de1a116c0b6c11efbf9",
+                0.12195968716773485
+            ],
+            [
+                "marker-0",
+                "0ef34146302c43c889780f311e477e62",
+                0.10509159868266854
+            ],
+            [
+                "eraser-0",
+                "8efaf047e51145d7babd4ee0cdc23539",
+                0.07067351496467988
+            ],
+            [
+                "eraser-1",
+                "8efaf047e51145d7babd4ee0cdc23539",
+                0.07067351496467988
+            ],
+            [
+                "eraser-2",
+                "8efaf047e51145d7babd4ee0cdc23539",
+                0.07067351496467988
+            ],
+            [
+                "magnet-2",
+                "3229ca1a7a7842f5b022ca12f1fb7e15",
+                0.03354585133492947
+            ],
+            [
+                "marker-2",
+                "b6e2518f738649438577daf40cb2a801",
+                0.026136839185861047
+            ],
+            [
+                "marker-3",
+                "5d06efaf885845c1879cb39a40078d12",
+                0.0168513149884012
+            ],
+            [
+                "marker-1",
+                "e3774ca0bdae459082f3bed37fa7260c",
+                0.015884101390838627
+            ],
+            [
+                "marker-4",
+                "1c199b97bd5a4af9b416bc7a2d0441ce",
+                0.012554169411642509
+            ]
+        ],
+        "whiteboard-1 (co-working space)": [
+            [
+                "magnet-0",
+                "203d2234abaf4e33851d2ab311015da7",
+                0.24679526832805154
+            ],
+            [
+                "magnet-4",
+                "df264f847a474efeb3fa6c9d9cacee63",
+                0.1798417585159382
+            ],
+            [
+                "magnet-2",
+                "0762cb8db9c24337b6e946c3e03b6bcd",
+                0.16394827636670883
+            ],
+            [
+                "magnet-1",
+                "0a07ca72a4204de1a116c0b6c11efbf9",
+                0.12195968716773485
+            ],
+            [
+                "eraser-0",
+                "972836e83e5f4d4e9943f85c4578ed28",
+                0.11924581527709965
+            ],
+            [
+                "eraser-1",
+                "972836e83e5f4d4e9943f85c4578ed28",
+                0.11924581527709965
+            ],
+            [
+                "eraser-2",
+                "972836e83e5f4d4e9943f85c4578ed28",
+                0.11924581527709965
+            ],
+            [
+                "marker-1",
+                "0ef34146302c43c889780f311e477e62",
+                0.10509159868266854
+            ],
+            [
+                "magnet-3",
+                "3229ca1a7a7842f5b022ca12f1fb7e15",
+                0.03354585133492947
+            ],
+            [
+                "marker-2",
+                "b6e2518f738649438577daf40cb2a801",
+                0.026136839185861047
+            ],
+            [
+                "marker-3",
+                "5d06efaf885845c1879cb39a40078d12",
+                0.0168513149884012
+            ],
+            [
+                "marker-4",
+                "e3774ca0bdae459082f3bed37fa7260c",
+                0.015884101390838627
+            ],
+            [
+                "marker-0",
+                "1c199b97bd5a4af9b416bc7a2d0441ce",
+                0.012554169411642509
+            ]
+        ],
+        "whiteboard-0 (co-working space)": [
+            [
+                "magnet-0",
+                "203d2234abaf4e33851d2ab311015da7",
+                0.24679526832805154
+            ],
+            [
+                "magnet-4",
+                "df264f847a474efeb3fa6c9d9cacee63",
+                0.1798417585159382
+            ],
+            [
+                "magnet-1",
+                "0762cb8db9c24337b6e946c3e03b6bcd",
+                0.16394827636670883
+            ],
+            [
+                "magnet-2",
+                "0a07ca72a4204de1a116c0b6c11efbf9",
+                0.12195968716773485
+            ],
+            [
+                "marker-2",
+                "0ef34146302c43c889780f311e477e62",
+                0.10509159868266854
+            ],
+            [
+                "eraser-0",
+                "411efb7824864e55a923078b19ce99ca",
+                0.07065423689383482
+            ],
+            [
+                "eraser-1",
+                "411efb7824864e55a923078b19ce99ca",
+                0.07065423689383482
+            ],
+            [
+                "eraser-2",
+                "411efb7824864e55a923078b19ce99ca",
+                0.07065423689383482
+            ],
+            [
+                "magnet-3",
+                "3229ca1a7a7842f5b022ca12f1fb7e15",
+                0.03354585133492947
+            ],
+            [
+                "marker-3",
+                "b6e2518f738649438577daf40cb2a801",
+                0.026136839185861047
+            ],
+            [
+                "marker-4",
+                "5d06efaf885845c1879cb39a40078d12",
+                0.0168513149884012
+            ],
+            [
+                "marker-0",
+                "e3774ca0bdae459082f3bed37fa7260c",
+                0.015884101390838627
+            ],
+            [
+                "marker-1",
+                "1c199b97bd5a4af9b416bc7a2d0441ce",
+                0.012554169411642509
+            ]
+        ]
+    }
+}

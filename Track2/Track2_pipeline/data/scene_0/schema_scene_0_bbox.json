@@ -1,0 +1,56 @@
+{
+  "scene_0": {
+    "dataset": "<str>",
+    "room_size": "<float>",
+    "room_center": [
+      "<float>",
+      "<float>",
+      "<float>"
+    ],
+    "room_bounds": [
+      "<float>",
+      "<float>",
+      "<float>",
+      "<float>"
+    ],
+    "object_counts": {
+      "<meeting chair (Example Key)>": "<int>",
+      "__NOTE__": "<... This dict contains 15 items of the same type (keys are dynamic IDs/Names) ...>"
+    },
+    "object_bboxes": {
+      "<meeting_chair-0 (Example Key)>": {
+        "name": "<str>",
+        "category": "<str>",
+        "object_name": "<str>",
+        "assetId": "<str>",
+        "id": "<str>",
+        "centroid": [
+          "<float>",
+          "<float>",
+          "<float>"
+        ],
+        "axesLengths": [
+          "<float>",
+          "<float>",
+          "<float>"
+        ],
+        "normalizedAxes": [
+          "<float>",
+          "<... List containing 9 items ...>"
+        ],
+        "min": [
+          "<float>",
+          "<float>",
+          "<float>"
+        ],
+        "max": [
+          "<float>",
+          "<float>",
+          "<float>"
+        ],
+        "instance_id": "<int>"
+      },
+      "__NOTE__": "<... This dict contains 34 items of the same type (keys are dynamic IDs/Names) ...>"
+    }
+  }
+}

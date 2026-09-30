@@ -1,0 +1,237 @@
+{
+    "position": {
+        "x": 3.0,
+        "y": 0.9009997844696045,
+        "z": 3.0
+    },
+    "views": {
+        "0": {
+            "image_path": "scene_0_room_view_0.png",
+            "position": {
+                "x": 3.0,
+                "y": 1.649999976158142,
+                "z": 3.0
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "visible_objects": [
+                {
+                    "id": "office_supplies-0",
+                    "category": "office supplies"
+                },
+                {
+                    "id": "wall_art-0",
+                    "category": "wall art"
+                },
+                {
+                    "id": "meeting_chair-7",
+                    "category": "meeting chair"
+                },
+                {
+                    "id": "potted_plant-0",
+                    "category": "potted plant"
+                },
+                {
+                    "id": "magazine-0",
+                    "category": "magazine"
+                },
+                {
+                    "id": "storage_cabinet-0",
+                    "category": "storage cabinet"
+                },
+                {
+                    "id": "potted_plant-2",
+                    "category": "potted plant"
+                },
+                {
+                    "id": "door-0",
+                    "category": "door"
+                },
+                {
+                    "id": "side_table-0",
+                    "category": "side table"
+                }
+            ]
+        },
+        "90": {
+            "image_path": "scene_0_room_view_90.png",
+            "position": {
+                "x": 3.0,
+                "y": 1.649999976158142,
+                "z": 3.0
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "visible_objects": [
+                {
+                    "id": "wall_art-0",
+                    "category": "wall art"
+                },
+                {
+                    "id": "conference_phone-0",
+                    "category": "conference phone"
+                },
+                {
+                    "id": "bookshelf-0",
+                    "category": "bookshelf"
+                },
+                {
+                    "id": "meeting_chair-7",
+                    "category": "meeting chair"
+                },
+                {
+                    "id": "floor_lamp-1",
+                    "category": "floor lamp"
+                },
+                {
+                    "id": "conference_table-0",
+                    "category": "conference table"
+                },
+                {
+                    "id": "book-0",
+                    "category": "book"
+                },
+                {
+                    "id": "meeting_chair-2",
+                    "category": "meeting chair"
+                },
+                {
+                    "id": "meeting_chair-1",
+                    "category": "meeting chair"
+                },
+                {
+                    "id": "wall_art-2",
+                    "category": "wall art"
+                },
+                {
+                    "id": "potted_plant-1",
+                    "category": "potted plant"
+                },
+                {
+                    "id": "potted_plant-2",
+                    "category": "potted plant"
+                },
+                {
+                    "id": "wall_art-1",
+                    "category": "wall art"
+                }
+            ]
+        },
+        "180": {
+            "image_path": "scene_0_room_view_180.png",
+            "position": {
+                "x": 3.0,
+                "y": 1.649999976158142,
+                "z": 3.0
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "visible_objects": [
+                {
+                    "id": "meeting_chair-6",
+                    "category": "meeting chair"
+                },
+                {
+                    "id": "side_table-1",
+                    "category": "side table"
+                },
+                {
+                    "id": "conference_phone-0",
+                    "category": "conference phone"
+                },
+                {
+                    "id": "bookshelf-0",
+                    "category": "bookshelf"
+                },
+                {
+                    "id": "meeting_chair-5",
+                    "category": "meeting chair"
+                },
+                {
+                    "id": "presentation_board-1",
+                    "category": "presentation board"
+                },
+                {
+                    "id": "conference_table-0",
+                    "category": "conference table"
+                },
+                {
+                    "id": "magazine-1",
+                    "category": "magazine"
+                },
+                {
+                    "id": "potted_plant-1",
+                    "category": "potted plant"
+                },
+                {
+                    "id": "potted_plant-3",
+                    "category": "potted plant"
+                },
+                {
+                    "id": "meeting_chair-4",
+                    "category": "meeting chair"
+                },
+                {
+                    "id": "meeting_chair-9",
+                    "category": "meeting chair"
+                }
+            ]
+        },
+        "270": {
+            "image_path": "scene_0_room_view_270.png",
+            "position": {
+                "x": 3.0,
+                "y": 1.649999976158142,
+                "z": 3.0
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 270.0,
+                "z": 0.0
+            },
+            "visible_objects": [
+                {
+                    "id": "meeting_chair-6",
+                    "category": "meeting chair"
+                },
+                {
+                    "id": "magazine-0",
+                    "category": "magazine"
+                },
+                {
+                    "id": "floor_lamp-0",
+                    "category": "floor lamp"
+                },
+                {
+                    "id": "presentation_board-0",
+                    "category": "presentation board"
+                },
+                {
+                    "id": "meeting_chair-8",
+                    "category": "meeting chair"
+                },
+                {
+                    "id": "meeting_chair-9",
+                    "category": "meeting chair"
+                },
+                {
+                    "id": "door-0",
+                    "category": "door"
+                },
+                {
+                    "id": "side_table-0",
+                    "category": "side table"
+                }
+            ]
+        }
+    }
+}

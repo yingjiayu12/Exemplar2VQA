@@ -1,0 +1,12 @@
+[
+  {
+    "task_name": "global_object_count_threshold",
+    "description": "Checks if the total number of objects of a given category in the room meets or exceeds a specified threshold.",
+    "question_template": "Are there at least {count} {category}(s) in this room?",
+    "parameters": [
+      "category",
+      "count"
+    ],
+    "programmatic_hint": "Count the number of objects in object_counts with category={category}. Return True if count >= {count}."
+  }
+]

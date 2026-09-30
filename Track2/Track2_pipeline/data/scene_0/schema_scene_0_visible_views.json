@@ -1,0 +1,89 @@
+{
+  "position": {
+    "x": "<float>",
+    "y": "<float>",
+    "z": "<float>"
+  },
+  "views": {
+    "0": {
+      "image_path": "<str>",
+      "position": {
+        "x": "<float>",
+        "y": "<float>",
+        "z": "<float>"
+      },
+      "rotation": {
+        "x": "<float>",
+        "y": "<float>",
+        "z": "<float>"
+      },
+      "visible_objects": [
+        {
+          "id": "<str>",
+          "category": "<str>"
+        },
+        "<... List containing 9 items ...>"
+      ]
+    },
+    "90": {
+      "image_path": "<str>",
+      "position": {
+        "x": "<float>",
+        "y": "<float>",
+        "z": "<float>"
+      },
+      "rotation": {
+        "x": "<float>",
+        "y": "<float>",
+        "z": "<float>"
+      },
+      "visible_objects": [
+        {
+          "id": "<str>",
+          "category": "<str>"
+        },
+        "<... List containing 13 items ...>"
+      ]
+    },
+    "180": {
+      "image_path": "<str>",
+      "position": {
+        "x": "<float>",
+        "y": "<float>",
+        "z": "<float>"
+      },
+      "rotation": {
+        "x": "<float>",
+        "y": "<float>",
+        "z": "<float>"
+      },
+      "visible_objects": [
+        {
+          "id": "<str>",
+          "category": "<str>"
+        },
+        "<... List containing 12 items ...>"
+      ]
+    },
+    "270": {
+      "image_path": "<str>",
+      "position": {
+        "x": "<float>",
+        "y": "<float>",
+        "z": "<float>"
+      },
+      "rotation": {
+        "x": "<float>",
+        "y": "<float>",
+        "z": "<float>"
+      },
+      "visible_objects": [
+        {
+          "id": "<str>",
+          "category": "<str>"
+        },
+        "<... List containing 8 items ...>"
+      ]
+    }
+  }
+}
